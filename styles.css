@@ -1,0 +1,78 @@
+
+:root{
+  --bg:#0f1420;
+  --bg-soft:#121a28;
+  --fg:#e7eefc;
+  --muted:#a7b3c9;
+  --accent:#7ee3ad;
+  --accent-2:#5fb4ff;
+  --outline:#5fb4ff;
+  --card:#121a28;
+  --border:#24314a;
+}
+:root.light{
+  --bg:#f7f9ff;
+  --bg-soft:#ffffff;
+  --fg:#101523;
+  --muted:#46526a;
+  --accent:#0a7d47;
+  --accent-2:#0f62d9;
+  --outline:#0f62d9;
+  --card:#ffffff;
+  --border:#e5ecfa;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--fg);
+  padding-bottom:24vh;
+}
+.safe{padding-left: max(16px, env(safe-area-inset-left));
+      padding-right:max(16px, env(safe-area-inset-right));}
+.top{
+  position:sticky; top:0; z-index:20; backdrop-filter:saturate(130%) blur(8px);
+  background:color-mix(in oklab, var(--bg) 85%, transparent);
+  border-bottom:1px solid var(--border);
+  padding-top: max(10px, env(safe-area-inset-top));
+}
+h1{margin:10px 0 6px; font-size:22px; font-weight:800; letter-spacing:.2px}
+.brand{color:var(--accent)}
+.sub{margin:0 0 12px; color:var(--muted); font-size:14px}
+.toolbar{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px}
+button.nav{
+  background:var(--bg-soft); color:var(--fg); border:1px solid var(--border);
+  padding:10px 14px; border-radius:12px; font-weight:600; cursor:pointer;
+}
+button.nav:hover{outline:2px solid color-mix(in oklab, var(--outline) 60%, transparent)}
+main{padding-top:14px}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:14px;
+  margin:12px 0 20px;
+}
+.card h2{margin:0 0 8px; font-size:18px}
+.week{margin:18px 0}
+.week > .head{display:flex; align-items:center; justify-content:space-between; color:var(--muted); font-weight:700; margin-bottom:8px}
+.day{border:1px dashed var(--border); border-radius:14px; padding:10px; margin:10px 0 16px; background:var(--bg-soft)}
+.day.today{outline:3px solid var(--outline); box-shadow:0 0 0 3px color-mix(in oklab, var(--outline) 20%, transparent) inset}
+.day h3{display:flex; align-items:center; justify-content:space-between; margin:0 0 8px; font-size:16px}
+.meta{color:var(--muted); font-size:13px}
+.list{display:flex; flex-direction:column; gap:10px}
+.item{
+  display:grid; grid-template-columns:auto 70px 26px; gap:8px; align-items:center;
+  padding:10px; border:1px solid var(--border); border-radius:12px; background:var(--card);
+}
+.item .name{font-weight:700}
+.item .range{color:var(--muted); font-size:13px}
+.item .video{justify-self:end}
+.item a.btn{
+  text-decoration:none; background:var(--accent-2); color:white; font-weight:700;
+  padding:8px 10px; border-radius:10px; font-size:12px;
+}
+.item input[type=checkbox]{width:22px; height:22px; accent-color:var(--accent);}
+.small{font-size:12px; color:var(--muted)}

@@ -1,153 +1,249 @@
+(() => {
+  const START_SUNDAY = '2025-10-26'; // week 1 anchor (Sunday)
+  const MOBILITY_NAMES = ['Incline Walk + Mobility', 'Incline Walk', 'Mobility', 'Plank', 'Stretch'];
+  const MOBILITY_FALLBACK = [{ name:'Incline Walk + Mobility', repRange:'20–30 min · 5–7% incline · talkable pace', video:null }];
+  const STORAGE_KEY = 'exProgress.v1'; // date|exercise
 
-(function(){
-  const $ = (s, d=document)=>d.querySelector(s);
-  const $$ = (s, d=document)=>Array.from(d.querySelectorAll(s));
-  const fmt = (d)=>d.toLocaleDateString(undefined, {year:'numeric',month:'2-digit',day:'2-digit'});
-
-  const STORAGE_VERSION = 'v2'; // namespace for checkboxes
+  const $ = s => document.querySelector(s);
+  const weeksEl = $('#weeks');
+  const todayStats = $('#todayStats');
 
   // Theme
-  const themeBtn = $('#themeBtn');
-  const applyTheme = (t)=>{ document.documentElement.classList.toggle('light', t==='light'); localStorage.setItem('theme', t); }
-  const nextTheme = ()=> localStorage.getItem('theme')==='light'?'dark':'light';
-  applyTheme(localStorage.getItem('theme')|| (matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'));
-  themeBtn.addEventListener('click', ()=>applyTheme(nextTheme()));
-
-  // Fitness
-  fetch('fitness.json?ts='+Date.now()).then(r=>r.json()).then(data=>{
-    const box = $('#fitness');
-    const wlines = (data.workouts||[]).map(w=>`• ${w.type||w.name||'Workout'} · ${w.minutes||w.duration||''} min`).join('<br>');
-    box.innerHTML = `
-      <div class="meta">${data.date||''}</div>
-      <div>Steps: ${data.steps||0} · Distance: ${(data.distance_km||0).toFixed(2)} km</div>
-      <div>Active: ${data.active_energy_kcal||0} kcal · Exercise: ${data.exercise_minutes||0} min</div>
-      <div class="small">Workouts:</div>
-      <div class="small">${wlines||'—'}</div>`;
-  }).catch(()=>{ $('#fitness').textContent = 'No data'; });
-
-  // Plan
-  const hasVideo = (x)=>{
-    if(!x) return false;
-    const tryKeys = ['video','vimeo','link','url'];
-    // walk nested
-    let url = null;
-    if (typeof x === 'string') url = x;
-    else {
-      let node = x;
-      for (let k of tryKeys){
-        if (!node) break;
-        if (typeof node[k]==='string'){ url = node[k]; break; }
-        node = node[k];
-      }
-      // also check common shapes
-      if(!url){
-        url = x.url || (x.video&&x.video.url) || (x.vimeo&&x.vimeo.url) || (x.links&&x.links.vimeo);
-      }
-    }
-    if(url && /vimeo\.com|player\.vimeo\.com/i.test(url)) return url;
-    return null;
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'light') document.documentElement.classList.add('light');
+  $('#themeBtn').onclick = () => {
+    document.documentElement.classList.toggle('light');
+    localStorage.setItem('theme', document.documentElement.classList.contains('light') ? 'light' : 'dark');
   };
-  const isMobility = (name='')=> /(incline walk|walking|mobility|plank|stretch|hang|bird dog|dead bug)/i.test(name);
 
-  const keyFor = (dateStr, name)=> `${STORAGE_VERSION}|${dateStr}|${name}`;
-  const readCheck = (k)=> localStorage.getItem(k)==='1';
-  const writeCheck = (k,v)=> localStorage.setItem(k, v?'1':'0');
+  // Buttons
+  $('#prevBtn').onclick = () => moveWeek(-1);
+  $('#nextBtn').onclick = () => moveWeek(+1);
+  $('#todayBtn').onclick = scrollToToday;
 
-  function render(plan){
-    // Normalize into weeks -> days -> items
-    const weeks = plan.weeks || plan.plan || plan || [];
-    const cal = $('#calendar'); cal.innerHTML='';
+  // Utilities
+  const fmtDay = (d) => d.toLocaleDateString(undefined, { weekday:'long' });
+  const fmtDayShort = (d) => d.toLocaleDateString(undefined, { weekday:'short' });
+  const fmtRight = (d) => d.toLocaleDateString(undefined, { weekday:'long', day:'2-digit', month:'short' });
+  const iso = (d) => d.toISOString().slice(0,10);
+  const parse = (s) => new Date(s + 'T00:00:00');
 
-    // Build a list of all day nodes with a comparable date string if available
-    const today = new Date();
-    const todayKey = today.toISOString().slice(0,10);
-
-    let todayEl = null, targetWeekIdx = 0;
-
-    weeks.forEach((w, wi)=>{
-      const weekEl = document.createElement('section');
-      weekEl.className = 'week';
-      const range = w.range || w.title || '';
-      weekEl.innerHTML = `<div class="head"><div>Week ${wi+1}</div><div class="meta">${range}</div></div>`;
-      const days = w.days || w.workouts || [];
-
-      days.forEach(d=>{
-        const day = document.createElement('article');
-        day.className = 'day';
-        const dateStr = d.isoDate || d.date || d.label || '';
-        const label = d.title || d.day || d.label || '';
-        const right = (d.dateLabel || d.rightLabel || '');
-        day.innerHTML = `<h3><span>${label||'Day'}</span><span class="meta">${right||dateStr||''}</span></h3><div class="list"></div>`;
-        const list = day.querySelector('.list');
-        const flat = (d.items||d.exercises||d.movements||[]);
-
-        // Filter: Only exercises with Vimeo links, allow mobility without link
-        flat.forEach(ex=>{
-          const name = ex.name || ex.title || ex.exercise || '';
-          const range = ex.reps || ex.repRange || ex.range || ex.setsReps || '';
-          const url = hasVideo(ex.video)||hasVideo(ex);
-          if (!url && !isMobility(name)) return; // skip non-mobility without video
-
-          const row = document.createElement('div');
-          row.className='item';
-
-          const k = keyFor(dateStr||todayKey, name);
-          const checked = readCheck(k);
-
-          row.innerHTML = `
-            <div>
-              <div class="name">${name||'Exercise'}</div>
-              <div class="range">${range||''}</div>
-            </div>
-            <div class="video">${url? `<a class="btn" href="${url}" target="_blank" rel="noopener">Video</a>`:''}</div>
-            <input type="checkbox" ${checked?'checked':''} aria-label="Done">
-          `;
-          const cb = row.querySelector('input[type=checkbox]');
-          cb.addEventListener('change', ()=>writeCheck(k, cb.checked));
-          list.appendChild(row);
-        });
-
-        // identify today if labels match
-        if (dateStr){
-          // try to parse
-          const dObj = new Date(dateStr);
-          if(!isNaN(dObj)){
-            if (dObj.toISOString().slice(0,10) === todayKey){
-              day.classList.add('today'); todayEl = day; targetWeekIdx = wi;
-            }
-          } else {
-            // try text match like 'Mon 27 Oct'
-            const guess = today.toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
-            if ((label||'').includes(guess)) { day.classList.add('today'); todayEl = day; targetWeekIdx = wi; }
-          }
-        }
-        weekEl.appendChild(day);
-      });
-
-      cal.appendChild(weekEl);
-    });
-
-    // Navigation
-    const weeksEls = $$('.week');
-    let idx = targetWeekIdx;
-    function show(i){
-      idx = Math.max(0, Math.min(weeksEls.length-1, i));
-      weeksEls.forEach((w, j)=> w.style.display = j===idx? 'block':'none');
-      setTimeout(()=> { (todayEl && weeksEls[idx].contains(todayEl)) && todayEl.scrollIntoView({behavior:'smooth', block:'center'}); }, 60);
-    }
-    $('#prevBtn').onclick = ()=> show(idx-1);
-    $('#nextBtn').onclick = ()=> show(idx+1);
-    $('#todayBtn').onclick = ()=> show(targetWeekIdx);
-    show(idx);
+  function getSundayOfWeek(date){
+    const d = new Date(date);
+    const day = d.getDay(); // 0 Sun..6 Sat
+    d.setDate(d.getDate()-day);
+    d.setHours(0,0,0,0);
+    return d;
   }
 
-  fetch('plan.json?ts='+Date.now())
-    .then(r=>r.json())
-    .then(render)
-    .catch(err=>{
-      const cal = $('#calendar');
-      cal.innerHTML = '<div class="card">Could not load plan.json</div>';
-      console.error(err);
+  function firstWeekIndex(today, anchorSunday) {
+    // number of weeks between anchor and today's week
+    const diff = (getSundayOfWeek(today) - anchorSunday) / (7*24*3600*1000);
+    return Math.max(0, Math.floor(diff));
+  }
+
+  // Load JSON helpers
+  async function fetchJSON(path){
+    const res = await fetch(path + '?v=' + Date.now());
+    if (!res.ok) throw new Error('Failed to load '+path);
+    return res.json();
+  }
+
+  // Progress storage
+  const prog = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  function keyFor(dateStr, exName){ return dateStr + '|' + exName; }
+  function getChecked(dateStr, exName){ return !!prog[keyFor(dateStr, exName)]; }
+  function setChecked(dateStr, exName, val){
+    prog[keyFor(dateStr, exName)] = !!val;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(prog));
+  }
+
+  // Vimeo detector
+  function pickVimeoUrl(obj){
+    if (!obj) return null;
+    const tryList = [
+      obj.video, obj.vimeo, obj.url, obj.link,
+      obj?.links?.vimeo, obj?.links?.video, obj?.video?.url, obj?.vimeo?.url
+    ].filter(Boolean);
+    for (const v of tryList){
+      const s = typeof v === 'string' ? v : (v.url || v.href || null);
+      if (!s) continue;
+      if (/vimeo\.com/gi.test(s)) return s;
+    }
+    return null;
+  }
+
+  function isMobilityName(name){
+    return MOBILITY_NAMES.some(n => (name||'').toLowerCase().includes(n.toLowerCase()));
+  }
+
+  function ensureSixDaysSchedule(days){
+    // Convert more than 1 rest/empty day into mobility
+    let empties = days.filter(d => (!d.exercises || d.exercises.length === 0)).length;
+    if (empties <= 1) {
+      // still inject mobility for any remaining empty days so they are not blank
+      days.forEach(d => {
+        if (!d.exercises || d.exercises.length === 0) d.exercises = JSON.parse(JSON.stringify(MOBILITY_FALLBACK));
+      });
+      return days;
+    }
+    // Keep one true rest, others -> mobility
+    let keptRest = false;
+    days.forEach(d => {
+      if (!d.exercises || d.exercises.length === 0) {
+        if (!keptRest) { keptRest = true; d.exercises = []; d.rest = true; }
+        else d.exercises = JSON.parse(JSON.stringify(MOBILITY_FALLBACK));
+      }
+    });
+    return days;
+  }
+
+  function filterExercisesForDisplay(exs){
+    const out = [];
+    for (const e of exs || []){
+      const name = e.name || e.title || e.exercise || '';
+      const range = e.repRange || e.reps || e.range || e.setsReps || '';
+      const vimeo = pickVimeoUrl(e);
+      if (vimeo || isMobilityName(name)) {
+        out.push({ name, repRange: range, vimeo });
+      }
+    }
+    return out;
+  }
+
+  function buildHeadingLeft(day, idx){
+    // Expect something like "Sunday – Workout 1 – Chest"
+    const title = day.title || day.name || day.workoutType || day.focus || '';
+    const type = title ? (' – ' + title) : '';
+    return `${fmtDay(parse(day.isoDate))} – Workout ${idx+1}${type}`;
+  }
+
+  function buildDayLineRight(day){
+    const d = parse(day.isoDate);
+    return d.toLocaleDateString(undefined, { weekday:'long', day:'2-digit', month:'short' });
+  }
+
+  async function render(){
+    const [plan, fitness] = await Promise.all([fetchJSON('plan.json'), fetchJSON('fitness.json')]);
+
+    // Today card
+    if (fitness && fitness.date){
+      const w = (fitness.workouts||[]).map(w => `• ${w.type||'Workout'} · ${w.minutes||0} min`).join('<br/>');
+      todayStats.innerHTML = `
+        <div><strong>${fitness.date}</strong></div>
+        <div>Steps: ${fitness.steps||0} · Distance: ${(fitness.distance_km||0).toFixed(2)} km</div>
+        <div>Active: ${fitness.active_energy_kcal||0} kcal · Exercise: ${fitness.exercise_minutes||0} min</div>
+        <div>Workouts:<br/>${w || '—'}</div>
+      `;
+    } else {
+      todayStats.textContent = 'No fitness.json yet.';
+    }
+
+    // Normalize plan
+    const weeks = plan.weeks || plan.plan || [];
+    // Build flat list of weeks with isoDate per day
+    const outWeeks = weeks.map((w, wi) => {
+      const days = (w.days || w.workouts || []).map((d, di) => {
+        // derive isoDate if missing
+        let dateStr = d.isoDate || d.date || null;
+        if (!dateStr && (plan.startDate || plan.anchorDate)) {
+          const start = parse(plan.startDate || plan.anchorDate);
+          const dayDate = new Date(start);
+          dayDate.setDate(start.getDate() + wi*7 + di);
+          dateStr = iso(dayDate);
+        }
+        const name = d.name || d.title || '';
+        const focus = d.focus || d.type || '';
+        const exercises = filterExercisesForDisplay(d.exercises || d.items || d.movements || []);
+        return {
+          isoDate: dateStr,
+          title: focus || name || '',
+          rawTitle: name || '',
+          exercises
+        };
+      });
+      return { days: ensureSixDaysSchedule(days) };
     });
 
+    // Determine initial week index relative to anchor
+    const anchor = parse(START_SUNDAY);
+    const today = new Date();
+    let viewIndex = firstWeekIndex(today, anchor);
+
+    // Clamp within available weeks
+    viewIndex = Math.min(Math.max(viewIndex, 0), outWeeks.length-1);
+
+    function draw(){
+      weeksEl.innerHTML = '';
+      const week = outWeeks[viewIndex];
+      const wLabelStart = parse(week.days[0].isoDate);
+      const wLabelEnd = parse(week.days[6].isoDate);
+      const h3 = document.createElement('h3');
+      h3.textContent = `Week ${viewIndex+1} · ${wLabelStart.toLocaleDateString(undefined,{day:'2-digit',month:'short'})} – ${wLabelEnd.toLocaleDateString(undefined,{day:'2-digit',month:'short'})}`;
+      const wrap = document.createElement('div');
+      wrap.className = 'week';
+      wrap.appendChild(h3);
+
+      week.days.forEach((day, di) => {
+        const dEl = document.createElement('div'); dEl.className = 'day card';
+        const d = parse(day.isoDate);
+        const todayIso = iso(new Date());
+        if (iso(d) === todayIso) dEl.classList.add('today');
+
+        const head = document.createElement('div'); head.className='dayhead';
+        const left = document.createElement('div'); left.className='dayleft'; left.textContent = buildHeadingLeft(day, di);
+        const right = document.createElement('div'); right.className='dayright'; right.textContent = buildDayLineRight(day);
+        head.append(left,right);
+        dEl.appendChild(head);
+
+        const exs = day.exercises;
+        if (!exs || exs.length===0){
+          const p = document.createElement('div'); p.className='exercise';
+          p.innerHTML = `<div class="ex-left"><div class="ex-title">Rest</div></div>`;
+          dEl.appendChild(p);
+        } else {
+          exs.forEach(ex => {
+            const row = document.createElement('div'); row.className='exercise';
+            const left = document.createElement('div'); left.className='ex-left';
+            const title = document.createElement('div'); title.className='ex-title'; title.textContent = ex.name || 'Exercise';
+            const range = document.createElement('div'); range.className='ex-range'; range.textContent = ex.repRange || '';
+            left.append(title); if (ex.repRange) left.append(range);
+            const actions = document.createElement('div'); actions.className='ex-actions';
+            if (ex.vimeo) {
+              const a = document.createElement('a'); a.href = ex.vimeo; a.target='_blank'; a.rel='noopener'; a.className='vbtn'; a.textContent='Video';
+              actions.appendChild(a);
+            }
+            const c = document.createElement('input'); c.type='checkbox'; c.checked = getChecked(day.isoDate, ex.name||'');
+            c.addEventListener('change', ()=> setChecked(day.isoDate, ex.name||'', c.checked));
+            actions.appendChild(c);
+            row.append(left, actions);
+            dEl.appendChild(row);
+          });
+        }
+
+        wrap.appendChild(dEl);
+      });
+
+      weeksEl.appendChild(wrap);
+    }
+
+    function moveWeek(delta){
+      viewIndex = Math.min(Math.max(viewIndex+delta, 0), outWeeks.length-1);
+      draw(); setTimeout(scrollToToday, 50);
+    }
+
+    function scrollToToday(){
+      const t = document.querySelector('.day.today');
+      if (t) t.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+
+    draw();
+    setTimeout(scrollToToday, 100);
+  }
+
+  // Kickoff
+  render().catch(e => {
+    console.error(e);
+    weeksEl.innerHTML = `<div class="card">Error: ${e.message}</div>`;
+  });
 })();

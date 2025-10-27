@@ -1,9 +1,9 @@
 // Minimal SW: network-first for JSON; cache-first for shell.
-const CACHE = 'gp-shell-v3';
-const SHELL = ['/', './index.html', './offline.html', './manifest.webmanifest'];
+const CACHE = 'gp-shell-v5';
+const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest'];
 
 self.addEventListener('install', e=>{
-  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));
+  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL).catch(()=>{})));
   self.skipWaiting();
 });
 self.addEventListener('activate', e=>{

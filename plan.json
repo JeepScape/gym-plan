@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-27T13:47:31.369945Z",
+  "generated_at": "2025-10-27T18:33:13.331643Z",
   "weeks": [
     {
       "start": "2025-11-02",
@@ -7,61 +7,8 @@
       "days": [
         {
           "date": "2025-11-02",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2025-11-03",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-11-04",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -126,14 +73,15 @@
           ]
         },
         {
-          "date": "2025-11-05",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-11-03",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-11-06",
+          "date": "2025-11-04",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -186,14 +134,15 @@
           ]
         },
         {
-          "date": "2025-11-07",
+          "date": "2025-11-05",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2025-11-08",
+          "date": "2025-11-06",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -250,17 +199,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2025-11-09",
-      "label": "Week 2 \u00b7 09 Nov \u2013 15 Nov",
-      "days": [
+        },
         {
-          "date": "2025-11-09",
-          "type": "Workout 1 - Push",
+          "date": "2025-11-07",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2025-11-08",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -274,46 +230,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2025-11-09",
+      "label": "Week 2 \u00b7 09 Nov \u2013 15 Nov",
+      "days": [
         {
-          "date": "2025-11-10",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-11-11",
+          "date": "2025-11-09",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -378,14 +335,15 @@
           ]
         },
         {
-          "date": "2025-11-12",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-11-10",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-11-13",
+          "date": "2025-11-11",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -438,14 +396,82 @@
           ]
         },
         {
-          "date": "2025-11-14",
+          "date": "2025-11-12",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2025-11-13",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2025-11-14",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2025-11-15",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -505,61 +531,8 @@
       "days": [
         {
           "date": "2025-11-16",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2025-11-17",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-11-18",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -624,14 +597,15 @@
           ]
         },
         {
-          "date": "2025-11-19",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-11-17",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-11-20",
+          "date": "2025-11-18",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -684,14 +658,15 @@
           ]
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-11-19",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2025-11-22",
+          "date": "2025-11-20",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -748,17 +723,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2025-11-23",
-      "label": "Week 4 \u00b7 23 Nov \u2013 29 Nov",
-      "days": [
+        },
         {
-          "date": "2025-11-23",
-          "type": "Workout 1 - Push",
+          "date": "2025-11-21",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2025-11-22",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -772,46 +754,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2025-11-23",
+      "label": "Week 4 \u00b7 23 Nov \u2013 29 Nov",
+      "days": [
         {
-          "date": "2025-11-24",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-11-25",
+          "date": "2025-11-23",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -876,14 +859,15 @@
           ]
         },
         {
-          "date": "2025-11-26",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-11-24",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-11-27",
+          "date": "2025-11-25",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -936,14 +920,82 @@
           ]
         },
         {
-          "date": "2025-11-28",
+          "date": "2025-11-26",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2025-11-27",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2025-11-28",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2025-11-29",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1003,61 +1055,8 @@
       "days": [
         {
           "date": "2025-11-30",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2025-12-01",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-12-02",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1122,14 +1121,15 @@
           ]
         },
         {
-          "date": "2025-12-03",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-12-01",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-12-04",
+          "date": "2025-12-02",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1182,14 +1182,15 @@
           ]
         },
         {
-          "date": "2025-12-05",
+          "date": "2025-12-03",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2025-12-06",
+          "date": "2025-12-04",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1246,17 +1247,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2025-12-07",
-      "label": "Week 6 \u00b7 07 Dec \u2013 13 Dec",
-      "days": [
+        },
         {
-          "date": "2025-12-07",
-          "type": "Workout 1 - Push",
+          "date": "2025-12-05",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2025-12-06",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -1270,46 +1278,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2025-12-07",
+      "label": "Week 6 \u00b7 07 Dec \u2013 13 Dec",
+      "days": [
         {
-          "date": "2025-12-08",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-12-09",
+          "date": "2025-12-07",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1374,14 +1383,15 @@
           ]
         },
         {
-          "date": "2025-12-10",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-12-08",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-12-11",
+          "date": "2025-12-09",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1434,14 +1444,82 @@
           ]
         },
         {
-          "date": "2025-12-12",
+          "date": "2025-12-10",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2025-12-11",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-12",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2025-12-13",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1501,61 +1579,8 @@
       "days": [
         {
           "date": "2025-12-14",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2025-12-15",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-12-16",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1620,14 +1645,15 @@
           ]
         },
         {
-          "date": "2025-12-17",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-12-15",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-12-18",
+          "date": "2025-12-16",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1680,14 +1706,15 @@
           ]
         },
         {
-          "date": "2025-12-19",
+          "date": "2025-12-17",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2025-12-20",
+          "date": "2025-12-18",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1744,17 +1771,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2025-12-21",
-      "label": "Week 8 \u00b7 21 Dec \u2013 27 Dec",
-      "days": [
+        },
         {
-          "date": "2025-12-21",
-          "type": "Workout 1 - Push",
+          "date": "2025-12-19",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2025-12-20",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -1768,46 +1802,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2025-12-21",
+      "label": "Week 8 \u00b7 21 Dec \u2013 27 Dec",
+      "days": [
         {
-          "date": "2025-12-22",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-12-23",
+          "date": "2025-12-21",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1872,14 +1907,15 @@
           ]
         },
         {
-          "date": "2025-12-24",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-12-22",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2025-12-25",
+          "date": "2025-12-23",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1932,14 +1968,82 @@
           ]
         },
         {
-          "date": "2025-12-26",
+          "date": "2025-12-24",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2025-12-25",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-26",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2025-12-27",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -1999,61 +2103,8 @@
       "days": [
         {
           "date": "2025-12-28",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2025-12-29",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2025-12-30",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2118,14 +2169,15 @@
           ]
         },
         {
-          "date": "2025-12-31",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2025-12-29",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-01-01",
+          "date": "2025-12-30",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2178,14 +2230,15 @@
           ]
         },
         {
-          "date": "2026-01-02",
+          "date": "2025-12-31",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-01-03",
+          "date": "2026-01-01",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2242,17 +2295,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-01-04",
-      "label": "Week 10 \u00b7 04 Jan \u2013 10 Jan",
-      "days": [
+        },
         {
-          "date": "2026-01-04",
-          "type": "Workout 1 - Push",
+          "date": "2026-01-02",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-01-03",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -2266,46 +2326,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-01-04",
+      "label": "Week 10 \u00b7 04 Jan \u2013 10 Jan",
+      "days": [
         {
-          "date": "2026-01-05",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-01-06",
+          "date": "2026-01-04",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2370,14 +2431,15 @@
           ]
         },
         {
-          "date": "2026-01-07",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-01-05",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-01-08",
+          "date": "2026-01-06",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2430,14 +2492,82 @@
           ]
         },
         {
-          "date": "2026-01-09",
+          "date": "2026-01-07",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-01-08",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-09",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-01-10",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2497,61 +2627,8 @@
       "days": [
         {
           "date": "2026-01-11",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-01-12",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-01-13",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2616,14 +2693,15 @@
           ]
         },
         {
-          "date": "2026-01-14",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-01-12",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-01-15",
+          "date": "2026-01-13",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2676,14 +2754,15 @@
           ]
         },
         {
-          "date": "2026-01-16",
+          "date": "2026-01-14",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-01-17",
+          "date": "2026-01-15",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2740,17 +2819,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-01-18",
-      "label": "Week 12 \u00b7 18 Jan \u2013 24 Jan",
-      "days": [
+        },
         {
-          "date": "2026-01-18",
-          "type": "Workout 1 - Push",
+          "date": "2026-01-16",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-01-17",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -2764,46 +2850,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-01-18",
+      "label": "Week 12 \u00b7 18 Jan \u2013 24 Jan",
+      "days": [
         {
-          "date": "2026-01-19",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-01-20",
+          "date": "2026-01-18",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2868,14 +2955,15 @@
           ]
         },
         {
-          "date": "2026-01-21",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-01-19",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-20",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2928,14 +3016,82 @@
           ]
         },
         {
-          "date": "2026-01-23",
+          "date": "2026-01-21",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-01-22",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-23",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-01-24",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -2995,61 +3151,8 @@
       "days": [
         {
           "date": "2026-01-25",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-01-26",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-01-27",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3114,14 +3217,15 @@
           ]
         },
         {
-          "date": "2026-01-28",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-01-26",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-01-29",
+          "date": "2026-01-27",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3174,14 +3278,15 @@
           ]
         },
         {
-          "date": "2026-01-30",
+          "date": "2026-01-28",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-01-31",
+          "date": "2026-01-29",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3238,17 +3343,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-02-01",
-      "label": "Week 14 \u00b7 01 Feb \u2013 07 Feb",
-      "days": [
+        },
         {
-          "date": "2026-02-01",
-          "type": "Workout 1 - Push",
+          "date": "2026-01-30",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-01-31",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -3262,46 +3374,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-02-01",
+      "label": "Week 14 \u00b7 01 Feb \u2013 07 Feb",
+      "days": [
         {
-          "date": "2026-02-02",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-02-03",
+          "date": "2026-02-01",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3366,14 +3479,15 @@
           ]
         },
         {
-          "date": "2026-02-04",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-02-02",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-02-05",
+          "date": "2026-02-03",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3426,14 +3540,82 @@
           ]
         },
         {
-          "date": "2026-02-06",
+          "date": "2026-02-04",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-02-05",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-06",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-02-07",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3493,61 +3675,8 @@
       "days": [
         {
           "date": "2026-02-08",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-02-09",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-02-10",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3612,14 +3741,15 @@
           ]
         },
         {
-          "date": "2026-02-11",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-02-09",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-02-12",
+          "date": "2026-02-10",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3672,14 +3802,15 @@
           ]
         },
         {
-          "date": "2026-02-13",
+          "date": "2026-02-11",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-02-14",
+          "date": "2026-02-12",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3736,17 +3867,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-02-15",
-      "label": "Week 16 \u00b7 15 Feb \u2013 21 Feb",
-      "days": [
+        },
         {
-          "date": "2026-02-15",
-          "type": "Workout 1 - Push",
+          "date": "2026-02-13",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-02-14",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -3760,46 +3898,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-02-15",
+      "label": "Week 16 \u00b7 15 Feb \u2013 21 Feb",
+      "days": [
         {
-          "date": "2026-02-16",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-02-17",
+          "date": "2026-02-15",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3864,14 +4003,15 @@
           ]
         },
         {
-          "date": "2026-02-18",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-02-16",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-02-19",
+          "date": "2026-02-17",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3924,14 +4064,82 @@
           ]
         },
         {
-          "date": "2026-02-20",
+          "date": "2026-02-18",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-02-19",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-02-21",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -3991,61 +4199,8 @@
       "days": [
         {
           "date": "2026-02-22",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-02-23",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-02-24",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4110,14 +4265,15 @@
           ]
         },
         {
-          "date": "2026-02-25",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-02-23",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-24",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4170,14 +4326,15 @@
           ]
         },
         {
-          "date": "2026-02-27",
+          "date": "2026-02-25",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-02-28",
+          "date": "2026-02-26",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4234,17 +4391,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-03-01",
-      "label": "Week 18 \u00b7 01 Mar \u2013 07 Mar",
-      "days": [
+        },
         {
-          "date": "2026-03-01",
-          "type": "Workout 1 - Push",
+          "date": "2026-02-27",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-02-28",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -4258,46 +4422,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-03-01",
+      "label": "Week 18 \u00b7 01 Mar \u2013 07 Mar",
+      "days": [
         {
-          "date": "2026-03-02",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-03-03",
+          "date": "2026-03-01",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4362,14 +4527,15 @@
           ]
         },
         {
-          "date": "2026-03-04",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-03-02",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-03-05",
+          "date": "2026-03-03",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4422,14 +4588,82 @@
           ]
         },
         {
-          "date": "2026-03-06",
+          "date": "2026-03-04",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-03-05",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-03-07",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4489,61 +4723,8 @@
       "days": [
         {
           "date": "2026-03-08",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-09",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-03-10",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4608,14 +4789,15 @@
           ]
         },
         {
-          "date": "2026-03-11",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-03-09",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-10",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4668,14 +4850,15 @@
           ]
         },
         {
-          "date": "2026-03-13",
+          "date": "2026-03-11",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-03-14",
+          "date": "2026-03-12",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4732,17 +4915,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-03-15",
-      "label": "Week 20 \u00b7 15 Mar \u2013 21 Mar",
-      "days": [
+        },
         {
-          "date": "2026-03-15",
-          "type": "Workout 1 - Push",
+          "date": "2026-03-13",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-03-14",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -4756,46 +4946,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-03-15",
+      "label": "Week 20 \u00b7 15 Mar \u2013 21 Mar",
+      "days": [
         {
-          "date": "2026-03-16",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-03-17",
+          "date": "2026-03-15",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4860,14 +5051,15 @@
           ]
         },
         {
-          "date": "2026-03-18",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-03-16",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-03-19",
+          "date": "2026-03-17",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4920,14 +5112,82 @@
           ]
         },
         {
-          "date": "2026-03-20",
+          "date": "2026-03-18",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-03-19",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-03-21",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -4987,61 +5247,8 @@
       "days": [
         {
           "date": "2026-03-22",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-23",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-03-24",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5106,14 +5313,15 @@
           ]
         },
         {
-          "date": "2026-03-25",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-03-23",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-03-26",
+          "date": "2026-03-24",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5166,14 +5374,15 @@
           ]
         },
         {
-          "date": "2026-03-27",
+          "date": "2026-03-25",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-03-28",
+          "date": "2026-03-26",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5230,17 +5439,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-03-29",
-      "label": "Week 22 \u00b7 29 Mar \u2013 04 Apr",
-      "days": [
+        },
         {
-          "date": "2026-03-29",
-          "type": "Workout 1 - Push",
+          "date": "2026-03-27",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-03-28",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -5254,46 +5470,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-03-29",
+      "label": "Week 22 \u00b7 29 Mar \u2013 04 Apr",
+      "days": [
         {
-          "date": "2026-03-30",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-03-31",
+          "date": "2026-03-29",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5358,14 +5575,15 @@
           ]
         },
         {
-          "date": "2026-04-01",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-03-30",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-04-02",
+          "date": "2026-03-31",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5418,14 +5636,82 @@
           ]
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-01",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-04-02",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-04-04",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5485,61 +5771,8 @@
       "days": [
         {
           "date": "2026-04-05",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-04-06",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-04-07",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5604,14 +5837,15 @@
           ]
         },
         {
-          "date": "2026-04-08",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-04-06",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-04-09",
+          "date": "2026-04-07",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5664,14 +5898,15 @@
           ]
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-08",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-09",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5728,17 +5963,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-04-12",
-      "label": "Week 24 \u00b7 12 Apr \u2013 18 Apr",
-      "days": [
+        },
         {
-          "date": "2026-04-12",
-          "type": "Workout 1 - Push",
+          "date": "2026-04-10",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-04-11",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -5752,46 +5994,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-04-12",
+      "label": "Week 24 \u00b7 12 Apr \u2013 18 Apr",
+      "days": [
         {
-          "date": "2026-04-13",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-04-14",
+          "date": "2026-04-12",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5856,14 +6099,15 @@
           ]
         },
         {
-          "date": "2026-04-15",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-04-13",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-14",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5916,14 +6160,82 @@
           ]
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-15",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-04-16",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-04-18",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -5983,61 +6295,8 @@
       "days": [
         {
           "date": "2026-04-19",
-          "type": "Workout 1 - Push",
-          "exercises": [
-            {
-              "name": "Incline Dumbbell Press",
-              "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
-              "notes": "On set 3: Complete 10-14 reps, rest 20 seconds, then complete as many reps as possible.",
-              "video": null
-            },
-            {
-              "name": "Flat Dumbbell Press",
-              "rep_range": "8-12 / 8-12 / 12-15",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Chest Fly",
-              "rep_range": "9-12 / 12-15 / 12-15",
-              "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
-              "video": null
-            },
-            {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
-              "notes": "",
-              "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
-            }
-          ]
-        },
-        {
-          "date": "2026-04-20",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-04-21",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -6102,14 +6361,15 @@
           ]
         },
         {
-          "date": "2026-04-22",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-04-20",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-04-23",
+          "date": "2026-04-21",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -6162,14 +6422,15 @@
           ]
         },
         {
-          "date": "2026-04-24",
+          "date": "2026-04-22",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
           "exercises": []
         },
         {
-          "date": "2026-04-25",
+          "date": "2026-04-23",
           "type": "Workout 4 - Arms",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -6226,17 +6487,24 @@
               "video": "https://vimeo.com/668314442"
             }
           ]
-        }
-      ]
-    },
-    {
-      "start": "2026-04-26",
-      "label": "Week 26 \u00b7 26 Apr \u2013 02 May",
-      "days": [
+        },
         {
-          "date": "2026-04-26",
-          "type": "Workout 1 - Push",
+          "date": "2026-04-24",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
+          "exercises": []
+        },
+        {
+          "date": "2026-04-25",
+          "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
             {
               "name": "Incline Dumbbell Press",
               "rep_range": "6-9 / 10-14 / 10-14 + Rest Pause",
@@ -6250,46 +6518,47 @@
               "video": null
             },
             {
-              "name": "Dumbbell Chest Fly",
+              "name": "Cable Crossover",
               "rep_range": "9-12 / 12-15 / 12-15",
               "notes": "On set 3: use a weight you could get around 15 reps with. Complete 12 reps, rest 20s, complete 8 reps, rest 20s then complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Chest Supported Dumbbell Lateral Raise",
-              "rep_range": "12-15 / 12-15 / 12-15 / 25",
-              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "name": "Barbell bent Over Row",
+              "rep_range": "9-12 / 10-14 / 10-14 + Drop Set",
+              "notes": "On set 3: complete 10-14 reps, drop the weight by 20-30% and complete as many reps as possible. ",
               "video": null
             },
             {
-              "name": "Dumbbell Shoulder Press",
-              "rep_range": "10-15 / 15-20 / 15-20",
+              "name": "Standing Reverse Cable Fly",
+              "rep_range": "6-9 / 10-14 / 10-14",
+              "notes": "On set 2 only: Pause in the squeeze for 2-3s on each rep. ",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Wide Grip Lat Pulldown",
+              "rep_range": "8-12 / 12-15 / 6/6/6/6",
+              "notes": "Set 3 is a muscle round: Use the same weight as set 2, then complete as many rounds of 6 reps, rest 10s as possible. The set ends when you cannot complete 6 reps.",
+              "video": null
+            },
+            {
+              "name": "Incline Bench DB Row (Elbow Wide)",
+              "rep_range": "8-12 / 12-15 / 12-15",
               "notes": "",
               "video": null
-            },
-            {
-              "name": "Cross Body Cable Extension",
-              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
-              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
-              "video": null
-            },
-            {
-              "name": "Tricep Rope Extension",
-              "rep_range": "12-15 / 12-15 / 12-15",
-              "notes": "",
-              "video": "https://vimeo.com/668314442"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "start": "2026-04-26",
+      "label": "Week 26 \u00b7 26 Apr \u2013 02 May",
+      "days": [
         {
-          "date": "2026-04-27",
-          "type": "Incline Walk + Mobility",
-          "notes": "20\u201330 min \u00b7 incline 5\u20137% \u00b7 talkable pace (RPE ~6/10).",
-          "exercises": []
-        },
-        {
-          "date": "2026-04-28",
+          "date": "2026-04-26",
           "type": "Workout 2 - Pull",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -6354,14 +6623,15 @@
           ]
         },
         {
-          "date": "2026-04-29",
-          "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "date": "2026-04-27",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
-          "date": "2026-04-30",
+          "date": "2026-04-28",
           "type": "Workout 3 - Legs & Abs",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",
@@ -6414,14 +6684,82 @@
           ]
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-04-29",
           "type": "Rest / Recovery",
-          "notes": "Walk, stretch, or light mobility.",
+          "notes": "Walk, stretch or light mobility as desired.",
+          "exercises": []
+        },
+        {
+          "date": "2026-04-30",
+          "type": "Workout 4 - Arms",
+          "notes": "",
+          "exercises": [
+            {
+              "name": "Exercise",
+              "rep_range": "Rep Range",
+              "notes": "Notes",
+              "video": null
+            },
+            {
+              "name": "Spider Curl",
+              "rep_range": "8-12 / 8-12 / 8-12",
+              "notes": "",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "rep_range": "10-14 / nan / 10-14 / 15-20",
+              "notes": "Set the bench up on a 60 degree incline fore these seated curls. ",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "rep_range": "8-10 / 10-14 / 10-14",
+              "notes": "",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Chest Supported Dumbbell Lateral Raise",
+              "rep_range": "12-15 / 12-15 / 12-15 / 25",
+              "notes": "On set 4: Use the same weight as set 3. Complete as many reps as possible then rest 10s and carry on. Repeat this process until you hit 25 reps. ",
+              "video": null
+            },
+            {
+              "name": "Dumbbell Shoulder Press",
+              "rep_range": "10-15 / 15-20 / 15-20",
+              "notes": "",
+              "video": null
+            },
+            {
+              "name": "Tricep Focused Dips",
+              "rep_range": "8-12 / 8-12 / 12-15",
+              "notes": "If you are unable to do this using bodyweight, then use a band or an assisted machine. (Did bench dips instead)",
+              "video": null
+            },
+            {
+              "name": "Cross Body Cable Extension",
+              "rep_range": "9-12 / 9-12 / 12-15 + Double Drop Set",
+              "notes": "On set 3: Complete 12-15 reps, drop the weight by 10-20%, get as many reps as possible. Then drop the weight by a further 10-20% and get as many reps as possible. ",
+              "video": null
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "rep_range": "12-15 / 12-15 / 12-15",
+              "notes": "",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2026-05-01",
+          "type": "Incline Walk + Mobility",
+          "notes": "20\u201330 min \u00b7 5\u20137% incline \u00b7 talkable pace (RPE ~6/10).",
           "exercises": []
         },
         {
           "date": "2026-05-02",
           "type": "Workout 5 - Chest & Back",
+          "notes": "",
           "exercises": [
             {
               "name": "Exercise",

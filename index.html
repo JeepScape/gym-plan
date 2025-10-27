@@ -221,11 +221,12 @@ function updateProtein(){
 }
 document.getElementById('set-kg').onclick = updateProtein; updateProtein();
 
-// --- Apple Fitness card fetch ---
+// --- Apple Fitness card fetch (cache-busted) ---
 (async function(){
   const card = document.getElementById('fit-card');
   try {
-    const resp = await fetch('./fitness.json', {cache:'no-store'});
+    // 👇 cache-bust + ask browser to skip caches
+    const resp = await fetch('./fitness.json?ts=' + Date.now(), { cache: 'no-store' });
     if (!resp.ok) throw new Error('no data');
     const d = await resp.json();
     const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';

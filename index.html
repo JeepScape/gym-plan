@@ -1,76 +1,60 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Gym Plan · 6 Months</title>
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0b0f17">
-<style>
-:root{
-  --bg:#0b0f17; --fg:#d9e0ee; --card:#121826; --muted:#9aa4b2; --accent:#7bdcb5; --ring:#2a3342;
-}
-@media (prefers-color-scheme:light){
-  :root{ --bg:#f7fafc; --fg:#0b0f17; --card:#ffffff; --muted:#475569; --accent:#2563eb; --ring:#e2e8f0;}
-}
-[data-theme="light"] :root, :root[data-theme="light"]{
-  --bg:#f7fafc; --fg:#0b0f17; --card:#ffffff; --muted:#475569; --accent:#2563eb; --ring:#e2e8f0;
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px -apple-system,system-ui,Segoe UI,Roboto,Inter,sans-serif;padding-top:calc(env(safe-area-inset-top) + 18px)}
-.header{position:sticky;top:0;padding:8px 16px 12px;background:linear-gradient(180deg,rgba(0,0,0,.25),transparent);backdrop-filter:saturate(1.5) blur(6px);z-index:5}
-.h1{font-weight:700;font-size:22px;margin:0 0 2px}
-.sub{color:var(--muted);font-size:13px}
-.container{padding:0 16px 80px}
-.controls{display:flex;gap:8px;margin:12px 0}
-.btn{background:var(--card);color:var(--fg);border:1px solid var(--ring);padding:10px 12px;border-radius:14px}
-.card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:12px;margin:12px 0}
-.small{color:var(--muted);font-size:13px}
-.week{margin-top:8px}
-.day{border-top:1px dashed var(--ring);padding:12px 0;display:flex;align-items:flex-start;gap:12px}
-.day:first-child{border-top:0}
-.day .title{flex:1}
-.check{margin-left:auto}
-label.toggle{margin-left:auto}
-.note{line-height:1.45}
-.canvas{width:100%;height:120px}
-.theme{margin-left:auto}
-.today{outline:2px solid var(--accent);border-radius:14px; box-shadow:0 0 0 3px color-mix(in srgb,var(--accent),transparent 70%) inset}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>6-Month Sunday-Start Plan</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#0b1220">
+  <style>
+    :root{
+      color-scheme: light dark;
+      --bg:#0b1220; --card:#121a2a; --text:#e6eefc; --muted:#a9b2c3; --accent:#7de0b5; --border:#2a3550;
+    }
+    [data-theme="light"]{
+      --bg:#f7f9ff; --card:#ffffff; --text:#0a1120; --muted:#4c556a; --accent:#2f8fdd; --border:#dfe6f3;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;background:var(--bg);color:var(--text);
+      font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif;
+      padding:calc(env(safe-area-inset-top) + 18px) 14px 28px 14px;
+    }
+    .wrap{max-width:900px;margin:0 auto;}
+    h1{margin:0 0 6px 0;font-size:clamp(22px,4.5vw,36px);}
+    .muted{color:var(--muted)}
+    .row{display:flex;gap:12px;margin:18px 0;align-items:center}
+    .btn{background:var(--card);border:1px solid var(--border);padding:10px 14px;border-radius:12px;color:var(--text);}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin-top:16px;}
+    .title{margin-bottom:8px}
+    .small{font-size:12px;color:var(--muted)}
+    .day{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px dashed var(--border);border-radius:12px;padding:12px 12px;margin:8px 0;}
+    .day.today{outline:2px solid var(--accent);}
+    a{color:var(--accent);text-decoration:none}
+  </style>
 </head>
 <body>
-<header class="header">
-  <div class="h1">6‑Month Sunday‑Start Plan</div>
-  <div class="sub">Rebuild strength + incline walks. Keep 1–3 reps in reserve; stop if form breaks.</div>
-  <div class="controls">
-    <button id="prev" class="btn">◀ Prev Week</button>
-    <button id="next" class="btn">Next Week ▶</button>
-    <button id="theme" class="btn theme">Theme</button>
+  <div class="wrap">
+    <h1>6-Month Sunday-Start Plan</h1>
+    <div class="muted">Rebuild strength + incline walks. Keep 1–3 reps in reserve; stop if form breaks.</div>
+
+    <div class="row">
+      <button id="prev" class="btn">◀ Prev Week</button>
+      <button id="next" class="btn">Next Week ▶</button>
+      <button id="theme" class="btn" style="margin-left:auto">Theme</button>
+    </div>
+
+    <div class="card"><div id="fit-card" class="title">Loading…</div></div>
+
+    <div id="week" class="card"></div>
   </div>
-</header>
-<main class="container">
-  <section class="card">
-    <h3 style="margin:4px 0">Today · Apple Fitness</h3>
-    <div id="fit-card" class="small">Loading…</div>
-  </section>
 
-  <section class="card" id="progress-card">
-    <h3 style="margin:4px 0">Progress</h3>
-    <div class="small" id="streak-line">—</div>
-    <canvas id="stepsWeek" class="canvas"></canvas>
-    <canvas id="exerciseWeek" class="canvas"></canvas>
-  </section>
-
-  <section id="week" class="card"></section>
-</main>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
-// Theme toggle
+/* --- Theme toggle --- */
 (function(){
-  const btn = document.getElementById('theme');
   const saved = localStorage.getItem('theme');
   if(saved) document.documentElement.setAttribute('data-theme', saved);
+  const btn = document.getElementById('theme');
   btn.onclick = () => {
     const curr = document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';
     document.documentElement.setAttribute('data-theme', curr);
@@ -78,147 +62,89 @@ label.toggle{margin-left:auto}
   };
 })();
 
-// Plan & render
-let PLAN = null;
-const LS_KEY = 'gp-progress-v1';
-let progress = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
-
-function $id(id){ return document.getElementById(id); }
-
-function fmtDate(iso){
+/* --- helpers --- */
+const $ = id=>document.getElementById(id);
+const fmtDate = (iso)=>{
   const d = new Date(iso+'T00:00:00');
   return d.toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
-}
+};
 
-function dayKey(iso){ return iso; }
+/* --- Fitness card: live view only --- */
+(async function(){
+  try {
+    const r = await fetch('./fitness.json?ts='+Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error('fitness.json fetch');
+    const d = await r.json();
+    const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';
+    const steps = (d.steps||0).toLocaleString();
+    const distance = (d.distance_km!=null ? Number(d.distance_km).toFixed(2) : '0.00');
+    const kcal = d.active_energy_kcal||0;
+    const exMin = d.exercise_minutes||0;
+    $('fit-card').innerHTML = `
+      <div class="title"><b>Today · Apple Fitness</b></div>
+      <div class="small">
+        <b>${d.date||''}</b><br>
+        Steps: ${steps} · Distance: ${distance} km<br>
+        Active: ${kcal} kcal · Exercise: ${exMin} min<br>
+        <span class="small">Workouts:</span><br>${wk}
+      </div>`;
+  } catch(e){
+    $('fit-card').innerHTML = '<div class="small">Could not load fitness.json</div>';
+  }
+})();
+
+/* --- Load plan and render one week --- */
+let PLAN=null, weekIndex=0;
 
 function renderWeek(idx){
   const w = PLAN.weeks[idx];
-  const wrap = $id('week');
+  const wrap = $('week');
   wrap.innerHTML = '<div class="small" style="margin-bottom:8px">'+w.label+'</div>';
   const todayIso = new Date().toISOString().slice(0,10);
 
-  w.days.forEach(day => {
-    const key = dayKey(day.date);
-    const done = !!progress[key];
+  (w.days||[]).forEach(day=>{
     const exHtml = (day.exercises||[]).map(ex=>{
       const v = ex.video ? `<a class="small" href="${ex.video}" target="_blank">video</a>` : '';
       return `<div class="small">• ${ex.name} <span class="small" style="opacity:.8">(${ex.rep_range})</span> ${v}</div>`;
     }).join('');
-    const inner = `
+    const row = `
       <div class="day ${day.date===todayIso?'today':''}">
         <div class="title">
           <div><b>${fmtDate(day.date)}</b> · ${day.type||'Rest'}</div>
           ${day.notes?`<div class="small">${day.notes}</div>`:''}
           ${exHtml}
         </div>
-        <label class="toggle">
-          <input type="checkbox" ${done?'checked':''} onchange="toggleDone('${key}', this.checked)">
-        </label>
       </div>`;
-    wrap.insertAdjacentHTML('beforeend', inner);
+    wrap.insertAdjacentHTML('beforeend', row);
   });
 
-  // auto-scroll to today
-  const el = wrap.querySelector('.today');
+  const el = wrap.querySelector('.day.today');
   if(el){ el.scrollIntoView({behavior:'smooth', block:'center'}); }
-  localStorage.setItem(LS_KEY, JSON.stringify(progress));
 }
 
-function toggleDone(key, val){
-  if(val) progress[key] = true; else delete progress[key];
-  localStorage.setItem(LS_KEY, JSON.stringify(progress));
-}
+document.getElementById('prev').onclick = ()=>{ weekIndex = Math.max(0, weekIndex-1); renderWeek(weekIndex); };
+document.getElementById('next').onclick = ()=>{ weekIndex = Math.min((PLAN?.weeks?.length||1)-1, weekIndex+1); renderWeek(weekIndex); };
 
-// Week nav
-let weekIndex = 0;
-$id('prev').onclick = ()=>{ weekIndex = Math.max(0, weekIndex-1); renderWeek(weekIndex); };
-$id('next').onclick = ()=>{ weekIndex = Math.min(PLAN.weeks.length-1, weekIndex+1); renderWeek(weekIndex); };
-
-// Fitness: read single-day fitness.json but persist to localStorage history for charts
 (async function(){
   try {
-    const r = await fetch('./fitness.json?ts='+Date.now(), {cache:'no-store'});
-    if(r.ok){
-      const d = await r.json();
-      const card = $id('fit-card');
-      const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';
-      const steps = (d.steps||0).toLocaleString();
-      const distance = (d.distance_km!=null ? Number(d.distance_km).toFixed(2) : '0.00');
-      const kcal = d.active_energy_kcal||0;
-      const exMin = d.exercise_minutes||0;
-      card.innerHTML = \`
-        <div class="note">
-          <b>\${d.date||''}</b><br>
-          Steps: \${steps} · Distance: \${distance} km<br>
-          Active: \${kcal} kcal · Exercise: \${exMin} min<br>
-          <span class="small">Workouts:</span><br>\${wk}
-        </div>\`;
-
-      // build local history without changing Shortcut
-      const HKEY = 'fitness-history-local-v1';
-      let hist = [];
-      try { hist = JSON.parse(localStorage.getItem(HKEY)||'[]'); } catch{}
-      // remove any existing entry for same date, then push today
-      hist = hist.filter(x => x.date !== d.date);
-      hist.push({date:d.date, steps:d.steps||0, exercise_minutes:d.exercise_minutes||0});
-      // keep last 26 weeks (~6 months)
-      hist.sort((a,b)=> a.date<b.date?-1:1);
-      if(hist.length>200) hist = hist.slice(-200);
-      localStorage.setItem(HKEY, JSON.stringify(hist));
-
-      // charts (aggregate by Sunday-start weeks)
-      const weekAgg = new Map();
-      function sundayStart(dateStr){
-        const dd = new Date(dateStr+'T00:00:00'); const g = dd.getDay(); dd.setDate(dd.getDate()-g); dd.setHours(0,0,0,0); 
-        return dd.toISOString().slice(0,10);
-      }
-      hist.forEach(r=>{
-        const key = sundayStart(r.date);
-        const prev = weekAgg.get(key)||{steps:0, ex:0};
-        weekAgg.set(key,{steps:prev.steps+(r.steps||0), ex:prev.ex+(r.exercise_minutes||0)});
-      });
-      const weeks = Array.from(weekAgg.entries()).sort((a,b)=> a[0]<b[0]?1:-1).slice(0,12).reverse();
-      const labels = weeks.map(([k])=>{ const d2 = new Date(k+'T00:00:00'); return d2.toLocaleDateString(undefined,{month:'short', day:'2-digit'}); });
-      const stepsArr = weeks.map(([,v])=> v.steps);
-      const exArr = weeks.map(([,v])=> v.ex);
-      if(window._stepsChart) window._stepsChart.destroy();
-      if(window._exChart) window._exChart.destroy();
-      window._stepsChart = new Chart(document.getElementById('stepsWeek'), {
-        type:'bar', data:{labels, datasets:[{label:'Weekly Steps', data:stepsArr}]},
-        options:{responsive:true, scales:{y:{beginAtZero:true}}, plugins:{legend:{display:false}}}
-      });
-      window._exChart = new Chart(document.getElementById('exerciseWeek'), {
-        type:'bar', data:{labels, datasets:[{label:'Weekly Exercise (min)', data:exArr}]},
-        options:{responsive:true, scales:{y:{beginAtZero:true}}, plugins:{legend:{display:false}}}
-      });
-
-      // streak from local history
-      let streak = 0;
-      const byDate = new Map(hist.map(x=>[x.date,x]));
-      let cursor = new Date((d.date||new Date().toISOString().slice(0,10))+'T00:00:00');
-      while(true){
-        const key = cursor.toISOString().slice(0,10);
-        const rec = byDate.get(key);
-        if(rec && (rec.exercise_minutes||0)>0){ streak++; cursor.setDate(cursor.getDate()-1); } else break;
-      }
-      $id('streak-line').textContent = 'Streak: '+streak+' day'+(streak===1?'':'s')+' with exercise > 0 min';
-    }
-  } catch(e){ /* ignore */ }
+    const res = await fetch('./plan.json?ts='+Date.now(), {cache:'no-store'});
+    if(!res.ok) throw new Error('plan.json fetch');
+    PLAN = await res.json();
+    const today = new Date().toISOString().slice(0,10);
+    const idx = PLAN.weeks.findIndex(w => {
+      const start = new Date(w.start+'T00:00:00').getTime();
+      const end = start + 6*86400000;
+      const t = new Date(today+'T00:00:00').getTime();
+      return t >= start && t <= end;
+    });
+    weekIndex = idx>=0 ? idx : 0;
+    renderWeek(weekIndex);
+  } catch(e){
+    $('week').innerHTML = '<div class="small">Could not load plan.json in repo root.</div>';
+  }
 })();
 
-// Load plan JSON (bundled)
-(async function(){
-  const res = await fetch('./plan.json?ts='+Date.now(), {cache:'no-store'});
-  PLAN = await res.json();
-  // find week containing today
-  const today = new Date().toISOString().slice(0,10);
-  const idx = PLAN.weeks.findIndex(w => today >= w.start && today <= new Date(new Date(w.start).getTime()+6*86400000).toISOString().slice(0,10));
-  weekIndex = idx>=0 ? idx : 0;
-  renderWeek(weekIndex);
-})();
-
-// Register SW
+// Register SW: keeps page shell, but always fetches latest plan/fitness first.
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('./service-worker.js');
 }

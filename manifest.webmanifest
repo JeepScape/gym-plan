@@ -1,6 +1,6 @@
 {
-  "name": "Gym Plan Safe Mode",
-  "short_name": "GymPlan Safe",
+  "name": "Gym Plan",
+  "short_name": "Gym Plan",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0b0c0f",

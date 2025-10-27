@@ -1,2 +1,8 @@
-<!doctype html><meta charset="utf-8"><title>Offline</title>
-<p>Offline. Try again when connected.</p>
+<!doctype html><html><meta charset="utf-8"><title>Offline</title>
+<body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0b0c0f;color:#eef0f3;display:flex;align-items:center;justify-content:center;min-height:100vh">
+<div style="padding:18px;border-radius:12px;border:1px solid #1f2330;background:#151924">
+  <h1 style="margin:0 0 8px 0;font-size:20px">Offline</h1>
+  <p style="margin:0;color:#aab2c0">No connection. This page will refresh automatically when you’re back online.</p>
+</div>
+<script>window.addEventListener('online',()=>location.reload());</script>
+</body></html>

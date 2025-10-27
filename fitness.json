@@ -4,10 +4,5 @@
   "distance_km": 0.0,
   "active_energy_kcal": 0,
   "exercise_minutes": 0,
-  "workouts": [
-    {
-      "type": "Outdoor Walk",
-      "minutes": 0
-    }
-  ]
+  "workouts": []
 }

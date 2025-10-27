@@ -1,40 +1,249 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gym Plan · Safe Mode</title>
-<meta name="theme-color" content="#0b0c0f">
-<link rel="manifest" href="manifest.webmanifest">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Gym Plan · v5</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#0b0c0f" />
+<meta name="color-scheme" content="light dark" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <style>
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;margin:0;background:#0b0c0f;color:#eef0f3;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
-  .card{max-width:680px;background:#151924;border:1px solid #1f2330;border-radius:14px;padding:18px}
-  h1{margin:0 0 8px 0;font-size:22px}
-  p{color:#aab2c0;line-height:1.5}
-  code{background:#0b0c0f;padding:2px 6px;border-radius:6px;border:1px solid #1f2330;color:#cde1ff}
+:root { --bg:#0b0c0f; --card:#151924; --border:#1f2330; --text:#eef0f3; --muted:#aab2c0; --dash:#273044; --accent:#3b82f6; }
+@media (prefers-color-scheme: light){
+  :root { --bg:#f7f9fc; --card:#ffffff; --border:#e7ecf4; --text:#121722; --muted:#586174; --dash:#dde3ee; --accent:#2563eb; }
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); }
+.header { position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 90%, #000 10%); padding: 14px 16px; border-bottom: 1px solid var(--border); z-index: 20; }
+.h1 { font-size: 18px; font-weight: 700; letter-spacing: 0.3px; }
+.meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.topbar { position: sticky; top: 56px; z-index: 25; display:flex; gap:8px; padding:8px 14px; background: var(--bg); border-bottom:1px solid var(--border); }
+.btn { border:1px solid var(--border); border-radius:10px; padding:10px 12px; font-size:13px; display:inline-flex; align-items:center; gap:8px; background:var(--card); color:var(--text); transition: transform .06s ease; }
+.btn:active{ transform: translateY(1px); }
+.toggle { margin-left:auto; }
+.section { padding: 12px 14px; }
+.wtitle { font-size: 16px; font-weight: 700; margin: 0 0 10px 0; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 12px; }
+.card h2 { margin: 0 0 6px 0; font-size: 15px; display:flex; justify-content:space-between; align-items:center; gap:8px;}
+.dates { font-size: 12px; color:var(--muted); }
+.exercise { padding: 10px 8px; border-top: 1px dashed var(--dash); display:flex; align-items:center; gap:10px;}
+.exercise:first-of-type { border-top: none; }
+.ex-name { flex: 1; font-size: 14px; line-height: 1.3; }
+.ex-meta { font-size: 12px; color: var(--muted); }
+.small { font-size: 12px; color: var(--muted); }
+.today { outline:2px solid var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); border-radius: 12px; }
+.note { background: color-mix(in srgb, var(--card) 85%, #000 15%); border:1px solid var(--border); padding:10px; border-radius:10px; font-size:12px; color: color-mix(in srgb, var(--text) 85%, #fff 15%); }
+.week { padding: 12px 14px; }
+.day { margin-bottom: 10px; }
+.link { text-decoration: none; font-size: 12px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); color: var(--text); }
+.footer { padding: 18px; font-size: 12px; color: var(--muted); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
+@media (prefers-reduced-motion: no-preference){
+  .today { animation: pulse 1.2s ease-out 1; } @keyframes pulse { 0%{box-shadow:none} 50%{box-shadow:0 0 0 6px color-mix(in srgb, var(--accent) 25%, transparent)} 100%{box-shadow:none} }
+}
 </style>
+<script>
+// Register SW v5
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js').catch(console.error);
+  });
+}
+</script>
 </head>
 <body>
-<div class="card">
-  <h1>Safe Mode</h1>
-  <p>Your previous service worker cache likely caused a blank page. This Safe Mode build clears old caches and unregisters the worker.</p>
-  <ol>
-    <li>Reload once after it says “Cleanup done”.</li>
-    <li>Then you can upload the full app again.</li>
-  </ol>
-  <p id="status">Cleaning up…</p>
-</div>
+<header class="header" role="banner">
+  <div class="h1">4-Week Sunday-Start Plan · v5</div>
+  <div class="meta">Rebuild strength + incline walks. Keep 1–3 reps in reserve; stop if form breaks.</div>
+</header>
+
+<nav class="topbar" aria-label="Week navigation">
+  <button class="btn" id="prev-week" aria-label="Show previous week">◀ Prev Week</button>
+  <button class="btn" id="next-week" aria-label="Show next week">Next Week ▶</button>
+  <button class="btn toggle" id="theme-toggle" aria-label="Toggle theme">🌓 Theme</button>
+</nav>
+
+<section class="section" aria-label="Apple Fitness">
+  <div class="wtitle">Today · Apple Fitness</div>
+  <div class="card" id="fit-card"><div class="note small">Loading…</div></div>
+</section>
+
+<section class="week" id="week-1" data-week="1" aria-label="Week 1">
+  <div class="wtitle" id="w1-title">Week 1</div>
+  <div id="w1"></div>
+</section>
+<section class="week" id="week-2" data-week="2" aria-label="Week 2" style="display:none">
+  <div class="wtitle" id="w2-title">Week 2</div>
+  <div id="w2"></div>
+</section>
+<section class="week" id="week-3" data-week="3" aria-label="Week 3" style="display:none">
+  <div class="wtitle" id="w3-title">Week 3</div>
+  <div id="w3"></div>
+</section>
+<section class="week" id="week-4" data-week="4" aria-label="Week 4" style="display:none">
+  <div class="wtitle" id="w4-title">Week 4</div>
+  <div id="w4"></div>
+</section>
+
+<section class="section" aria-label="Protein calculator">
+  <div class="wtitle">Protein Calculator</div>
+  <div class="card">
+    <div class="note">Target range is 1.6–2.0 g/kg. Use this to set a goal that suits your appetite.</div>
+    <div style="display:flex; gap:8px; align-items:center; margin:8px 0;">
+      <label for="kg" class="small">Body weight (kg)</label>
+      <input id="kg" type="number" min="40" max="200" step="0.5" value="88" style="flex:0 0 90px; padding:6px; border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text);" />
+      <button class="btn" id="set-kg">Set</button>
+    </div>
+    <div class="note"><b>Daily protein:</b> <span id="p-low">141</span>–<span id="p-high">176</span> g</div>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <div><span class="small">Warm-up:</span> 5–8 min easy cardio + 1–2 lighter sets for first two lifts.</div>
+  <div style="height:8px"></div>
+  <div><span class="small">Cool-down:</span> 3–5 min walk + light stretch. Aim 7–9k steps/day (training), 9–11k (walk/rest).</div>
+</footer>
+
 <script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./service-worker.js').then(async reg => {
-    // Wait a little for cleanup; then show status.
-    setTimeout(()=>document.getElementById('status').textContent='Cleanup done. Reload this page once.', 1500);
-  }).catch(e=>{
-    document.getElementById('status').textContent='SW register failed, but page is safe.';
-  });
-} else {
-  document.getElementById('status').textContent='No service worker support; page is safe.';
+// --- THEME ---
+const root = document.documentElement;
+document.getElementById('theme-toggle').onclick = () => {
+  const cur = root.dataset.theme === 'light' ? 'dark' : 'light';
+  root.dataset.theme = cur;
+  localStorage.setItem('gp-theme', cur);
+};
+const savedTheme = localStorage.getItem('gp-theme'); if (savedTheme) root.dataset.theme = savedTheme;
+
+// --- DATA: simple default plan (edit titles as you like) ---
+const PLAN = [
+  ["Sunday","Workout 1 - Push"],
+  ["Monday","Incline Walk + Mobility"],
+  ["Tuesday","Workout 2 - Pull"],
+  ["Wednesday","Incline Walk + Core"],
+  ["Thursday","Workout 3 - Legs & Abs"],
+  ["Friday","Rest / Easy Walk"],
+  ["Saturday","Workout 5 - Chest & Back"]
+];
+const WEEK_TEMPLATES = [PLAN, PLAN, PLAN, PLAN];
+
+// Build days
+function dayCard(dayName, title, dateObj){
+  const dateStr = dateObj.toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
+  let rows = '';
+  const generic = [
+    {name:"Exercise A", meta:"3 x 8–10"},
+    {name:"Exercise B", meta:"3 x 10–12"},
+    {name:"Optional finisher", meta:"2 x 12–15"}
+  ];
+  if (title.includes("Incline Walk")) {
+    rows = `<div class="note">20–30 min · incline 5–7% · talkable pace (RPE ~6/10).</div>`;
+  } else if (title.includes("Rest")) {
+    rows = `<div class="note">Full rest. Optional: 15–20 min easy walk + 5 min stretch.</div>`;
+  } else {
+    rows = generic.map((e,i)=>`
+      <div class="exercise"><div class="ex-name">
+        <div>${e.name}</div><div class="ex-meta">${e.meta}</div></div>
+        <div class="small">Done <input class="ex-cb" type="checkbox" /></div></div>
+    `).join("");
+  }
+  return `<div class="day"><div class="card"><h2><span>${dayName} · ${title}</span><span class="dates">${dateStr}</span></h2>${rows}</div></div>`;
 }
+function buildWeeks(){
+  const now = new Date();
+  // Find most recent Sunday (week starts Sunday)
+  const daysSinceSun = (now.getDay() - 0 + 7) % 7; // getDay: 0=Sun
+  let start = new Date(now); start.setDate(now.getDate() - daysSinceSun);
+  for (let w=1; w<=4; w++){
+    const wrap = document.getElementById('w'+w);
+    wrap.innerHTML = '';
+    for (let i=0;i<7;i++){
+      const d = new Date(start); d.setDate(start.getDate()+i);
+      const [name, title] = WEEK_TEMPLATES[w-1][i];
+      wrap.insertAdjacentHTML('beforeend', dayCard(name,title,d));
+    }
+    const t1 = new Date(start); const t2 = new Date(start); t2.setDate(t2.getDate()+6);
+    document.getElementById('w'+w+'-title').textContent = `Week ${w} · ${t1.toLocaleDateString(undefined,{day:'2-digit',month:'short'})} – ${t2.toLocaleDateString(undefined,{day:'2-digit',month:'short'})}`;
+    start.setDate(start.getDate()+7);
+  }
+}
+buildWeeks();
+
+// --- Show only one week + nav ---
+const weeks = Array.from(document.querySelectorAll('.week'));
+let current = parseInt(localStorage.getItem('gp-week')||'1',10);
+function showWeek(i){
+  current = Math.max(1, Math.min(weeks.length, i));
+  weeks.forEach((w, idx) => w.style.display = (idx+1===current) ? 'block' : 'none');
+  window.scrollTo({top:0, behavior:'instant'});
+  localStorage.setItem('gp-week', current);
+}
+showWeek(current);
+document.getElementById('prev-week').onclick = ()=> showWeek(current-1);
+document.getElementById('next-week').onclick = ()=> showWeek(current+1);
+
+// --- Today highlight + scroll ---
+(function(){
+  const nowStr = new Date().toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
+  const dates = document.querySelectorAll('.card h2 .dates');
+  let didScroll = false;
+  dates.forEach(el => {
+    if (el.textContent.trim() === nowStr){
+      el.closest('.card').classList.add('today');
+      if (!didScroll) { el.closest('.card').scrollIntoView({behavior:'smooth', block:'center'}); didScroll = true; }
+    }
+  });
+})();
+
+// --- Persist checkboxes by date ---
+(function(){
+  const keyPrefix = 'gp-check-';
+  document.querySelectorAll('.day .card').forEach(card => {
+    const dateEl = card.querySelector('.dates'); if (!dateEl) return;
+    const dateKey = dateEl.textContent.trim();
+    const boxes = card.querySelectorAll('.ex-cb');
+    const saved = JSON.parse(localStorage.getItem(keyPrefix+dateKey) || '[]');
+    boxes.forEach((b, i)=> b.checked = !!saved[i]);
+    boxes.forEach((b, i)=> b.addEventListener('change', ()=>{
+      const arr = Array.from(boxes).map(x => x.checked);
+      localStorage.setItem(keyPrefix+dateKey, JSON.stringify(arr));
+    }));
+  });
+})();
+
+// --- Protein calc ---
+function updateProtein(){
+  const kg = parseFloat(document.getElementById('kg').value||'0');
+  document.getElementById('p-low').textContent = Math.round(kg*1.6);
+  document.getElementById('p-high').textContent = Math.round(kg*2.0);
+}
+document.getElementById('set-kg').onclick = updateProtein; updateProtein();
+
+// --- Apple Fitness card fetch ---
+(async function(){
+  const card = document.getElementById('fit-card');
+  try {
+    const resp = await fetch('./fitness.json', {cache:'no-store'});
+    if (!resp.ok) throw new Error('no data');
+    const d = await resp.json();
+    const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';
+    const steps = (d.steps||0).toLocaleString();
+    const distance = (d.distance_km!=null ? Number(d.distance_km).toFixed(2) : '0.00');
+    const kcal = d.active_energy_kcal||0;
+    const exMin = d.exercise_minutes||0;
+    card.innerHTML = `
+      <div class="note">
+        <b>${d.date||''}</b><br>
+        Steps: ${steps} · Distance: ${distance} km<br>
+        Active: ${kcal} kcal · Exercise: ${exMin} min<br>
+        <span class="small">Workouts:</span><br>${wk}
+      </div>`;
+  } catch(e){
+    card.innerHTML = '<div class="note small">No Apple Fitness data yet.</div>';
+  }
+})();
 </script>
 </body>
 </html>

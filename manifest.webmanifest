@@ -1,7 +1,8 @@
 {
-  "name": "Gym Plan (4-Week, Sunday Start)",
+  "name": "Gym Plan \u00b7 4-Week (Sunday Start)",
   "short_name": "Gym Plan",
-  "start_url": ".",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0b0c0f",
   "theme_color": "#0b0c0f",

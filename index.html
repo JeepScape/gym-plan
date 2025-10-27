@@ -1,250 +1,227 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Gym Plan · v5</title>
-<link rel="manifest" href="manifest.webmanifest" />
-<meta name="theme-color" content="#0b0c0f" />
-<meta name="color-scheme" content="light dark" />
-<link rel="apple-touch-icon" href="icon-192.png" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gym Plan · 6 Months</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0f17">
 <style>
-:root { --bg:#0b0c0f; --card:#151924; --border:#1f2330; --text:#eef0f3; --muted:#aab2c0; --dash:#273044; --accent:#3b82f6; }
-@media (prefers-color-scheme: light){
-  :root { --bg:#f7f9fc; --card:#ffffff; --border:#e7ecf4; --text:#121722; --muted:#586174; --dash:#dde3ee; --accent:#2563eb; }
+:root{
+  --bg:#0b0f17; --fg:#d9e0ee; --card:#121826; --muted:#9aa4b2; --accent:#7bdcb5; --ring:#2a3342;
 }
-* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); }
-.header { position: sticky; top: 0; background: color-mix(in srgb, var(--bg) 90%, #000 10%); padding: 14px 16px; border-bottom: 1px solid var(--border); z-index: 20; }
-.h1 { font-size: 18px; font-weight: 700; letter-spacing: 0.3px; }
-.meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
-.topbar { position: sticky; top: 56px; z-index: 25; display:flex; gap:8px; padding:8px 14px; background: var(--bg); border-bottom:1px solid var(--border); }
-.btn { border:1px solid var(--border); border-radius:10px; padding:10px 12px; font-size:13px; display:inline-flex; align-items:center; gap:8px; background:var(--card); color:var(--text); transition: transform .06s ease; }
-.btn:active{ transform: translateY(1px); }
-.toggle { margin-left:auto; }
-.section { padding: 12px 14px; }
-.wtitle { font-size: 16px; font-weight: 700; margin: 0 0 10px 0; }
-.card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 12px; }
-.card h2 { margin: 0 0 6px 0; font-size: 15px; display:flex; justify-content:space-between; align-items:center; gap:8px;}
-.dates { font-size: 12px; color:var(--muted); }
-.exercise { padding: 10px 8px; border-top: 1px dashed var(--dash); display:flex; align-items:center; gap:10px;}
-.exercise:first-of-type { border-top: none; }
-.ex-name { flex: 1; font-size: 14px; line-height: 1.3; }
-.ex-meta { font-size: 12px; color: var(--muted); }
-.small { font-size: 12px; color: var(--muted); }
-.today { outline:2px solid var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); border-radius: 12px; }
-.note { background: color-mix(in srgb, var(--card) 85%, #000 15%); border:1px solid var(--border); padding:10px; border-radius:10px; font-size:12px; color: color-mix(in srgb, var(--text) 85%, #fff 15%); }
-.week { padding: 12px 14px; }
-.day { margin-bottom: 10px; }
-.link { text-decoration: none; font-size: 12px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); color: var(--text); }
-.footer { padding: 18px; font-size: 12px; color: var(--muted); }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
-@media (prefers-reduced-motion: no-preference){
-  .today { animation: pulse 1.2s ease-out 1; } @keyframes pulse { 0%{box-shadow:none} 50%{box-shadow:0 0 0 6px color-mix(in srgb, var(--accent) 25%, transparent)} 100%{box-shadow:none} }
+@media (prefers-color-scheme:light){
+  :root{ --bg:#f7fafc; --fg:#0b0f17; --card:#ffffff; --muted:#475569; --accent:#2563eb; --ring:#e2e8f0;}
 }
+[data-theme="light"] :root, :root[data-theme="light"]{
+  --bg:#f7fafc; --fg:#0b0f17; --card:#ffffff; --muted:#475569; --accent:#2563eb; --ring:#e2e8f0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px -apple-system,system-ui,Segoe UI,Roboto,Inter,sans-serif;padding-top:calc(env(safe-area-inset-top) + 18px)}
+.header{position:sticky;top:0;padding:8px 16px 12px;background:linear-gradient(180deg,rgba(0,0,0,.25),transparent);backdrop-filter:saturate(1.5) blur(6px);z-index:5}
+.h1{font-weight:700;font-size:22px;margin:0 0 2px}
+.sub{color:var(--muted);font-size:13px}
+.container{padding:0 16px 80px}
+.controls{display:flex;gap:8px;margin:12px 0}
+.btn{background:var(--card);color:var(--fg);border:1px solid var(--ring);padding:10px 12px;border-radius:14px}
+.card{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:12px;margin:12px 0}
+.small{color:var(--muted);font-size:13px}
+.week{margin-top:8px}
+.day{border-top:1px dashed var(--ring);padding:12px 0;display:flex;align-items:flex-start;gap:12px}
+.day:first-child{border-top:0}
+.day .title{flex:1}
+.check{margin-left:auto}
+label.toggle{margin-left:auto}
+.note{line-height:1.45}
+.canvas{width:100%;height:120px}
+.theme{margin-left:auto}
+.today{outline:2px solid var(--accent);border-radius:14px; box-shadow:0 0 0 3px color-mix(in srgb,var(--accent),transparent 70%) inset}
 </style>
-<script>
-// Register SW v5
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./service-worker.js').catch(console.error);
-  });
-}
-</script>
 </head>
 <body>
-<header class="header" role="banner">
-  <div class="h1">4-Week Sunday-Start Plan · v5</div>
-  <div class="meta">Rebuild strength + incline walks. Keep 1–3 reps in reserve; stop if form breaks.</div>
-</header>
-
-<nav class="topbar" aria-label="Week navigation">
-  <button class="btn" id="prev-week" aria-label="Show previous week">◀ Prev Week</button>
-  <button class="btn" id="next-week" aria-label="Show next week">Next Week ▶</button>
-  <button class="btn toggle" id="theme-toggle" aria-label="Toggle theme">🌓 Theme</button>
-</nav>
-
-<section class="section" aria-label="Apple Fitness">
-  <div class="wtitle">Today · Apple Fitness</div>
-  <div class="card" id="fit-card"><div class="note small">Loading…</div></div>
-</section>
-
-<section class="week" id="week-1" data-week="1" aria-label="Week 1">
-  <div class="wtitle" id="w1-title">Week 1</div>
-  <div id="w1"></div>
-</section>
-<section class="week" id="week-2" data-week="2" aria-label="Week 2" style="display:none">
-  <div class="wtitle" id="w2-title">Week 2</div>
-  <div id="w2"></div>
-</section>
-<section class="week" id="week-3" data-week="3" aria-label="Week 3" style="display:none">
-  <div class="wtitle" id="w3-title">Week 3</div>
-  <div id="w3"></div>
-</section>
-<section class="week" id="week-4" data-week="4" aria-label="Week 4" style="display:none">
-  <div class="wtitle" id="w4-title">Week 4</div>
-  <div id="w4"></div>
-</section>
-
-<section class="section" aria-label="Protein calculator">
-  <div class="wtitle">Protein Calculator</div>
-  <div class="card">
-    <div class="note">Target range is 1.6–2.0 g/kg. Use this to set a goal that suits your appetite.</div>
-    <div style="display:flex; gap:8px; align-items:center; margin:8px 0;">
-      <label for="kg" class="small">Body weight (kg)</label>
-      <input id="kg" type="number" min="40" max="200" step="0.5" value="88" style="flex:0 0 90px; padding:6px; border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text);" />
-      <button class="btn" id="set-kg">Set</button>
-    </div>
-    <div class="note"><b>Daily protein:</b> <span id="p-low">141</span>–<span id="p-high">176</span> g</div>
+<header class="header">
+  <div class="h1">6‑Month Sunday‑Start Plan</div>
+  <div class="sub">Rebuild strength + incline walks. Keep 1–3 reps in reserve; stop if form breaks.</div>
+  <div class="controls">
+    <button id="prev" class="btn">◀ Prev Week</button>
+    <button id="next" class="btn">Next Week ▶</button>
+    <button id="theme" class="btn theme">Theme</button>
   </div>
-</section>
+</header>
+<main class="container">
+  <section class="card">
+    <h3 style="margin:4px 0">Today · Apple Fitness</h3>
+    <div id="fit-card" class="small">Loading…</div>
+  </section>
 
-<footer class="footer" role="contentinfo">
-  <div><span class="small">Warm-up:</span> 5–8 min easy cardio + 1–2 lighter sets for first two lifts.</div>
-  <div style="height:8px"></div>
-  <div><span class="small">Cool-down:</span> 3–5 min walk + light stretch. Aim 7–9k steps/day (training), 9–11k (walk/rest).</div>
-</footer>
+  <section class="card" id="progress-card">
+    <h3 style="margin:4px 0">Progress</h3>
+    <div class="small" id="streak-line">—</div>
+    <canvas id="stepsWeek" class="canvas"></canvas>
+    <canvas id="exerciseWeek" class="canvas"></canvas>
+  </section>
 
+  <section id="week" class="card"></section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
-// --- THEME ---
-const root = document.documentElement;
-document.getElementById('theme-toggle').onclick = () => {
-  const cur = root.dataset.theme === 'light' ? 'dark' : 'light';
-  root.dataset.theme = cur;
-  localStorage.setItem('gp-theme', cur);
-};
-const savedTheme = localStorage.getItem('gp-theme'); if (savedTheme) root.dataset.theme = savedTheme;
-
-// --- DATA: simple default plan (edit titles as you like) ---
-const PLAN = [
-  ["Sunday","Workout 1 - Push"],
-  ["Monday","Incline Walk + Mobility"],
-  ["Tuesday","Workout 2 - Pull"],
-  ["Wednesday","Incline Walk + Core"],
-  ["Thursday","Workout 3 - Legs & Abs"],
-  ["Friday","Rest / Easy Walk"],
-  ["Saturday","Workout 5 - Chest & Back"]
-];
-const WEEK_TEMPLATES = [PLAN, PLAN, PLAN, PLAN];
-
-// Build days
-function dayCard(dayName, title, dateObj){
-  const dateStr = dateObj.toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
-  let rows = '';
-  const generic = [
-    {name:"Exercise A", meta:"3 x 8–10"},
-    {name:"Exercise B", meta:"3 x 10–12"},
-    {name:"Optional finisher", meta:"2 x 12–15"}
-  ];
-  if (title.includes("Incline Walk")) {
-    rows = `<div class="note">20–30 min · incline 5–7% · talkable pace (RPE ~6/10).</div>`;
-  } else if (title.includes("Rest")) {
-    rows = `<div class="note">Full rest. Optional: 15–20 min easy walk + 5 min stretch.</div>`;
-  } else {
-    rows = generic.map((e,i)=>`
-      <div class="exercise"><div class="ex-name">
-        <div>${e.name}</div><div class="ex-meta">${e.meta}</div></div>
-        <div class="small">Done <input class="ex-cb" type="checkbox" /></div></div>
-    `).join("");
-  }
-  return `<div class="day"><div class="card"><h2><span>${dayName} · ${title}</span><span class="dates">${dateStr}</span></h2>${rows}</div></div>`;
-}
-function buildWeeks(){
-  const now = new Date();
-  // Find most recent Sunday (week starts Sunday)
-  const daysSinceSun = (now.getDay() - 0 + 7) % 7; // getDay: 0=Sun
-  let start = new Date(now); start.setDate(now.getDate() - daysSinceSun);
-  for (let w=1; w<=4; w++){
-    const wrap = document.getElementById('w'+w);
-    wrap.innerHTML = '';
-    for (let i=0;i<7;i++){
-      const d = new Date(start); d.setDate(start.getDate()+i);
-      const [name, title] = WEEK_TEMPLATES[w-1][i];
-      wrap.insertAdjacentHTML('beforeend', dayCard(name,title,d));
-    }
-    const t1 = new Date(start); const t2 = new Date(start); t2.setDate(t2.getDate()+6);
-    document.getElementById('w'+w+'-title').textContent = `Week ${w} · ${t1.toLocaleDateString(undefined,{day:'2-digit',month:'short'})} – ${t2.toLocaleDateString(undefined,{day:'2-digit',month:'short'})}`;
-    start.setDate(start.getDate()+7);
-  }
-}
-buildWeeks();
-
-// --- Show only one week + nav ---
-const weeks = Array.from(document.querySelectorAll('.week'));
-let current = parseInt(localStorage.getItem('gp-week')||'1',10);
-function showWeek(i){
-  current = Math.max(1, Math.min(weeks.length, i));
-  weeks.forEach((w, idx) => w.style.display = (idx+1===current) ? 'block' : 'none');
-  window.scrollTo({top:0, behavior:'instant'});
-  localStorage.setItem('gp-week', current);
-}
-showWeek(current);
-document.getElementById('prev-week').onclick = ()=> showWeek(current-1);
-document.getElementById('next-week').onclick = ()=> showWeek(current+1);
-
-// --- Today highlight + scroll ---
+// Theme toggle
 (function(){
-  const nowStr = new Date().toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
-  const dates = document.querySelectorAll('.card h2 .dates');
-  let didScroll = false;
-  dates.forEach(el => {
-    if (el.textContent.trim() === nowStr){
-      el.closest('.card').classList.add('today');
-      if (!didScroll) { el.closest('.card').scrollIntoView({behavior:'smooth', block:'center'}); didScroll = true; }
-    }
-  });
+  const btn = document.getElementById('theme');
+  const saved = localStorage.getItem('theme');
+  if(saved) document.documentElement.setAttribute('data-theme', saved);
+  btn.onclick = () => {
+    const curr = document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';
+    document.documentElement.setAttribute('data-theme', curr);
+    localStorage.setItem('theme', curr);
+  };
 })();
 
-// --- Persist checkboxes by date ---
-(function(){
-  const keyPrefix = 'gp-check-';
-  document.querySelectorAll('.day .card').forEach(card => {
-    const dateEl = card.querySelector('.dates'); if (!dateEl) return;
-    const dateKey = dateEl.textContent.trim();
-    const boxes = card.querySelectorAll('.ex-cb');
-    const saved = JSON.parse(localStorage.getItem(keyPrefix+dateKey) || '[]');
-    boxes.forEach((b, i)=> b.checked = !!saved[i]);
-    boxes.forEach((b, i)=> b.addEventListener('change', ()=>{
-      const arr = Array.from(boxes).map(x => x.checked);
-      localStorage.setItem(keyPrefix+dateKey, JSON.stringify(arr));
-    }));
-  });
-})();
+// Plan & render
+let PLAN = null;
+const LS_KEY = 'gp-progress-v1';
+let progress = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
 
-// --- Protein calc ---
-function updateProtein(){
-  const kg = parseFloat(document.getElementById('kg').value||'0');
-  document.getElementById('p-low').textContent = Math.round(kg*1.6);
-  document.getElementById('p-high').textContent = Math.round(kg*2.0);
+function $id(id){ return document.getElementById(id); }
+
+function fmtDate(iso){
+  const d = new Date(iso+'T00:00:00');
+  return d.toLocaleDateString(undefined,{weekday:'short', day:'2-digit', month:'short'});
 }
-document.getElementById('set-kg').onclick = updateProtein; updateProtein();
 
-// --- Apple Fitness card fetch (cache-busted) ---
-(async function(){
-  const card = document.getElementById('fit-card');
-  try {
-    // 👇 cache-bust + ask browser to skip caches
-    const resp = await fetch('./fitness.json?ts=' + Date.now(), { cache: 'no-store' });
-    if (!resp.ok) throw new Error('no data');
-    const d = await resp.json();
-    const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';
-    const steps = (d.steps||0).toLocaleString();
-    const distance = (d.distance_km!=null ? Number(d.distance_km).toFixed(2) : '0.00');
-    const kcal = d.active_energy_kcal||0;
-    const exMin = d.exercise_minutes||0;
-    card.innerHTML = `
-      <div class="note">
-        <b>${d.date||''}</b><br>
-        Steps: ${steps} · Distance: ${distance} km<br>
-        Active: ${kcal} kcal · Exercise: ${exMin} min<br>
-        <span class="small">Workouts:</span><br>${wk}
+function dayKey(iso){ return iso; }
+
+function renderWeek(idx){
+  const w = PLAN.weeks[idx];
+  const wrap = $id('week');
+  wrap.innerHTML = '<div class="small" style="margin-bottom:8px">'+w.label+'</div>';
+  const todayIso = new Date().toISOString().slice(0,10);
+
+  w.days.forEach(day => {
+    const key = dayKey(day.date);
+    const done = !!progress[key];
+    const exHtml = (day.exercises||[]).map(ex=>{
+      const v = ex.video ? `<a class="small" href="${ex.video}" target="_blank">video</a>` : '';
+      return `<div class="small">• ${ex.name} <span class="small" style="opacity:.8">(${ex.rep_range})</span> ${v}</div>`;
+    }).join('');
+    const inner = `
+      <div class="day ${day.date===todayIso?'today':''}">
+        <div class="title">
+          <div><b>${fmtDate(day.date)}</b> · ${day.type||'Rest'}</div>
+          ${day.notes?`<div class="small">${day.notes}</div>`:''}
+          ${exHtml}
+        </div>
+        <label class="toggle">
+          <input type="checkbox" ${done?'checked':''} onchange="toggleDone('${key}', this.checked)">
+        </label>
       </div>`;
-  } catch(e){
-    card.innerHTML = '<div class="note small">No Apple Fitness data yet.</div>';
-  }
+    wrap.insertAdjacentHTML('beforeend', inner);
+  });
+
+  // auto-scroll to today
+  const el = wrap.querySelector('.today');
+  if(el){ el.scrollIntoView({behavior:'smooth', block:'center'}); }
+  localStorage.setItem(LS_KEY, JSON.stringify(progress));
+}
+
+function toggleDone(key, val){
+  if(val) progress[key] = true; else delete progress[key];
+  localStorage.setItem(LS_KEY, JSON.stringify(progress));
+}
+
+// Week nav
+let weekIndex = 0;
+$id('prev').onclick = ()=>{ weekIndex = Math.max(0, weekIndex-1); renderWeek(weekIndex); };
+$id('next').onclick = ()=>{ weekIndex = Math.min(PLAN.weeks.length-1, weekIndex+1); renderWeek(weekIndex); };
+
+// Fitness: read single-day fitness.json but persist to localStorage history for charts
+(async function(){
+  try {
+    const r = await fetch('./fitness.json?ts='+Date.now(), {cache:'no-store'});
+    if(r.ok){
+      const d = await r.json();
+      const card = $id('fit-card');
+      const wk = (d.workouts||[]).map(w => `• ${w.type} · ${w.minutes} min`).join('<br>') || '—';
+      const steps = (d.steps||0).toLocaleString();
+      const distance = (d.distance_km!=null ? Number(d.distance_km).toFixed(2) : '0.00');
+      const kcal = d.active_energy_kcal||0;
+      const exMin = d.exercise_minutes||0;
+      card.innerHTML = \`
+        <div class="note">
+          <b>\${d.date||''}</b><br>
+          Steps: \${steps} · Distance: \${distance} km<br>
+          Active: \${kcal} kcal · Exercise: \${exMin} min<br>
+          <span class="small">Workouts:</span><br>\${wk}
+        </div>\`;
+
+      // build local history without changing Shortcut
+      const HKEY = 'fitness-history-local-v1';
+      let hist = [];
+      try { hist = JSON.parse(localStorage.getItem(HKEY)||'[]'); } catch{}
+      // remove any existing entry for same date, then push today
+      hist = hist.filter(x => x.date !== d.date);
+      hist.push({date:d.date, steps:d.steps||0, exercise_minutes:d.exercise_minutes||0});
+      // keep last 26 weeks (~6 months)
+      hist.sort((a,b)=> a.date<b.date?-1:1);
+      if(hist.length>200) hist = hist.slice(-200);
+      localStorage.setItem(HKEY, JSON.stringify(hist));
+
+      // charts (aggregate by Sunday-start weeks)
+      const weekAgg = new Map();
+      function sundayStart(dateStr){
+        const dd = new Date(dateStr+'T00:00:00'); const g = dd.getDay(); dd.setDate(dd.getDate()-g); dd.setHours(0,0,0,0); 
+        return dd.toISOString().slice(0,10);
+      }
+      hist.forEach(r=>{
+        const key = sundayStart(r.date);
+        const prev = weekAgg.get(key)||{steps:0, ex:0};
+        weekAgg.set(key,{steps:prev.steps+(r.steps||0), ex:prev.ex+(r.exercise_minutes||0)});
+      });
+      const weeks = Array.from(weekAgg.entries()).sort((a,b)=> a[0]<b[0]?1:-1).slice(0,12).reverse();
+      const labels = weeks.map(([k])=>{ const d2 = new Date(k+'T00:00:00'); return d2.toLocaleDateString(undefined,{month:'short', day:'2-digit'}); });
+      const stepsArr = weeks.map(([,v])=> v.steps);
+      const exArr = weeks.map(([,v])=> v.ex);
+      if(window._stepsChart) window._stepsChart.destroy();
+      if(window._exChart) window._exChart.destroy();
+      window._stepsChart = new Chart(document.getElementById('stepsWeek'), {
+        type:'bar', data:{labels, datasets:[{label:'Weekly Steps', data:stepsArr}]},
+        options:{responsive:true, scales:{y:{beginAtZero:true}}, plugins:{legend:{display:false}}}
+      });
+      window._exChart = new Chart(document.getElementById('exerciseWeek'), {
+        type:'bar', data:{labels, datasets:[{label:'Weekly Exercise (min)', data:exArr}]},
+        options:{responsive:true, scales:{y:{beginAtZero:true}}, plugins:{legend:{display:false}}}
+      });
+
+      // streak from local history
+      let streak = 0;
+      const byDate = new Map(hist.map(x=>[x.date,x]));
+      let cursor = new Date((d.date||new Date().toISOString().slice(0,10))+'T00:00:00');
+      while(true){
+        const key = cursor.toISOString().slice(0,10);
+        const rec = byDate.get(key);
+        if(rec && (rec.exercise_minutes||0)>0){ streak++; cursor.setDate(cursor.getDate()-1); } else break;
+      }
+      $id('streak-line').textContent = 'Streak: '+streak+' day'+(streak===1?'':'s')+' with exercise > 0 min';
+    }
+  } catch(e){ /* ignore */ }
 })();
+
+// Load plan JSON (bundled)
+(async function(){
+  const res = await fetch('./plan.json?ts='+Date.now(), {cache:'no-store'});
+  PLAN = await res.json();
+  // find week containing today
+  const today = new Date().toISOString().slice(0,10);
+  const idx = PLAN.weeks.findIndex(w => today >= w.start && today <= new Date(new Date(w.start).getTime()+6*86400000).toISOString().slice(0,10));
+  weekIndex = idx>=0 ? idx : 0;
+  renderWeek(weekIndex);
+})();
+
+// Register SW
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('./service-worker.js');
+}
 </script>
 </body>
 </html>

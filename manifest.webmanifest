@@ -3,8 +3,8 @@
   "short_name": "Gym Plan",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0b0c0f",
-  "theme_color": "#0b0c0f",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17",
   "icons": [
     {
       "src": "icon-192.png",

@@ -1,40 +1,39 @@
-/* Basic reset/theme */
-:root{
-  --bg:#0f1218;--fg:#e7eaf1;--muted:#9aa3b2;--card:#131826;--accent:#4dd0b5;--line:#273043;
-  --ring: rgba(77,208,181,.35);
-  --pad-top: calc(env(safe-area-inset-top,0px) + 20px);
-}
-:root.light{
-  --bg:#fafafa;--fg:#0e1014;--muted:#4a5568;--card:#ffffff;--line:#e2e8f0;--accent:#0ea5e9;--ring:rgba(14,165,233,.25);
-}
-*{box-sizing:border-box}
-html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;}
-.safe{padding-left:16px;padding-right:16px}
-header{padding-top:var(--pad-top);padding-bottom:10px;position:sticky;top:0;background:linear-gradient(var(--bg),rgba(0,0,0,0) 95%);backdrop-filter:blur(6px);z-index:5}
-h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.2px}
-.subtitle{margin:0 0 10px 0;color:var(--muted)}
-.topbar{display:flex;align-items:center;gap:12px;justify-content:space-between}
-.toolbar{display:flex;gap:10px;margin:4px 0 10px 0}
-button{background:var(--card);color:var(--fg);border:1px solid var(--line);padding:10px 14px;border-radius:12px}
-button:active{transform:translateY(1px)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:12px 0}
-h2{margin:0 0 8px 0}
-#todayStats{color:var(--muted)}
 
-/* Week and day styles */
-.week{margin-top:18px}
-.week>h3{margin:0 0 8px 0;color:var(--muted);font-weight:600}
-.day{border:1px dashed var(--line);border-radius:16px;padding:10px 12px;margin:10px 0;background:transparent;transition:border-color .2s, box-shadow .2s}
-.day.today{border-color:var(--accent);box-shadow:0 0 0 4px var(--ring)}
-.dayhead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
-.dayleft{font-weight:700}
-.dayright{color:var(--muted);font-weight:600}
-.exercise{display:flex;align-items:center;justify-content:space-between;border-top:1px dashed var(--line);padding:10px 0;gap:12px}
-.exercise:first-of-type{border-top:none}
-.ex-left{display:flex;flex-direction:column;gap:4px}
-.ex-title{font-weight:600}
-.ex-range{color:var(--muted);font-size:.95em}
-.ex-actions{display:flex;align-items:center;gap:10px}
-a.vbtn{display:inline-flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;color:var(--fg);text-decoration:none;background:transparent}
-input[type=checkbox]{width:22px;height:22px}
+:root{
+  color-scheme: light dark;
+  --bg:#0c1116; --card:#121a23; --fg:#e8eef6; --muted:#9bb0c2; --accent:#8ef0c8;
+  --ring: #3a536c;
+}
+html.theme-light{ --bg:#f7fafc; --card:#ffffff; --fg:#0a1620; --muted:#475a6b; --accent:#0077ff; --ring:#cdd9e3; }
+*{box-sizing:border-box}
+body{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; padding:env(safe-area-inset-top) 0 12vh; }
+.wrap{ max-width:880px; margin:0 auto; padding:0 16px; }
+h1{ font-size:40px; line-height:1.05; margin:20px 0 8px; letter-spacing:-0.5px; }
+h1 span{ opacity:.9; font-weight:700; }
+.sub{ margin:6px 0 14px; color:var(--muted) }
+.row{ display:flex; align-items:center }
+.gap{ gap:12px }
+.pill{ border:1px solid var(--ring); background:transparent; color:var(--fg); padding:10px 14px; border-radius:12px; cursor:pointer }
+.pill:active{ transform:translateY(1px) }
+.card{ background:var(--card); border:1px solid var(--ring); border-radius:16px; padding:16px; margin:14px 0; }
+.fitness{ color:var(--muted) }
+
+.week{ display:grid; gap:14px }
+.dayhdr{ display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:8px }
+.dayhdr .left{ font-weight:700 }
+.dayhdr .right{ color:var(--muted) }
+.day.today{ outline:2px solid var(--accent); box-shadow:0 0 0 4px color-mix(in oklab, var(--accent), transparent 70%); }
+
+.exercises{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px }
+.ex{ display:flex; align-items:center; gap:12px; padding:10px; border-radius:12px; border:1px dashed var(--ring) }
+.ex .title{ flex:1 }
+.ex .meta{ color:var(--muted); font-size:14px }
+.ex .vid{ text-decoration:none; border:1px solid var(--ring); padding:8px 10px; border-radius:10px; }
+.ex input[type="checkbox"]{ width:24px; height:24px }
+
+/* safe scroll target for Today autoscroll */
+.day{ scroll-margin-top: 100px; }
+
+@media (max-width:480px){
+  h1{ font-size:34px }
+}

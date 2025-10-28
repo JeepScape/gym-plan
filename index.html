@@ -1,34 +1,44 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Workout Calendar for 99 Strength</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
-<header class="safe">
-  <div class="topbar">
-    <h1>Workout Calendar for 99 Strength</h1>
-    <div class="theme"><button id="themeBtn" aria-label="Toggle theme">Theme</button></div>
-  </div>
-  <p class="subtitle">6 days training, 1 day rest. Empty days become Incline Walk + Mobility.</p>
-  <div class="toolbar">
-    <button id="prevBtn">◀ Prev Week</button>
-    <button id="todayBtn">Today</button>
-    <button id="nextBtn">Next Week ▶</button>
-  </div>
-</header>
+  <header class="wrap">
+    <h1>Workout Calendar<br><span>for 99 Strength</span></h1>
+    <button id="themeBtn" class="pill">Theme</button>
+    <p class="sub">6 days training, 1 day rest. Empty days become <b>Incline Walk + Mobility</b>.</p>
+    <nav class="row gap">
+      <button id="prev" class="pill">◀ Prev Week</button>
+      <button id="today" class="pill">Today</button>
+      <button id="next" class="pill">Next Week ▶</button>
+    </nav>
+  </header>
 
-<main id="app" class="safe">
-  <section id="todayCard" class="card">
-    <h2>Today · Apple Fitness</h2>
-    <div id="todayStats">Loading…</div>
-  </section>
+  <main class="wrap">
+    <section class="card">
+      <h2>Today · Apple Fitness</h2>
+      <div id="fitness" class="fitness">Loading…</div>
+    </section>
 
-  <section id="weeks"></section>
-</main>
+    <section id="week" class="week"></section>
+  </main>
 
-<script src="app.js"></script>
+  <template id="dayTpl">
+    <article class="day card">
+      <div class="dayhdr">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <ul class="exercises"></ul>
+    </article>
+  </template>
+
+  <script src="app.js?v=3"></script>
 </body>
 </html>

@@ -5,15 +5,15 @@
 }
 html.theme-light{ --bg:#f7fafc; --card:#ffffff; --fg:#0a1620; --muted:#475a6b; --accent:#0077ff; --ring:#cdd9e3; }
 *{box-sizing:border-box}
-body{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji'; padding:env(safe-area-inset-top) 0 12vh; }
+body{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 'Runescape UF', ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji'; padding:env(safe-area-inset-top) 0 12vh; }
 .wrap{ max-width:880px; margin:0 auto; padding:0 16px; }
 
 /* Heading */
 .header{ margin-top:10px }
 .title-row{ display:flex; align-items:center; justify-content:center; gap:12px; }
-.brand-icon{ width:36px; height:36px; border-radius:8px; border:1px solid var(--ring) }
-.title{ font-size:28px; line-height:1.2; margin:8px 0 6px; text-align:center }
-.for99{ color: var(--yellow); font-weight:800 }
+.brand-icon{ width:40px; height:40px; border-radius:8px; border:1px solid var(--ring) }
+.title{ font-size:28px; line-height:1.2; margin:8px 0 6px; text-align:center; font-weight:900 }
+.for99{ color: var(--yellow); font-weight:900 }
 .sub{ margin:6px auto 14px; color:var(--muted); text-align:center; max-width:720px }
 .nav{ justify-content:center }
 
@@ -26,17 +26,17 @@ body{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 system-ui,
 
 .week{ display:grid; gap:14px }
 .dayhdr{ display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:8px }
-.dayhdr .left{ font-weight:700 }
-.dayhdr .right{ color:var(--muted) }
+/* Header left more prominent */
+.dayhdr .left{ font-weight:900; font-size:16px }
+.dayhdr .right{ color:var(--muted); font-weight:600; font-size:13px }
 /* Yellow highlight for today */
 .day.today{ outline:2px solid var(--yellow); box-shadow:0 0 0 4px color-mix(in oklab, var(--yellow), transparent 80%); }
 
 .exercises{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px }
-.ex{ display:flex; align-items:center; gap:12px; padding:10px; border-radius:12px; border:1px dashed var(--ring) }
-.ex .title{ flex:1 }
+.ex{ display:grid; grid-template-columns: 28px 1fr auto; align-items:center; gap:12px; padding:10px; border-radius:12px; border:1px dashed var(--ring) }
 .ex .meta{ color:var(--muted); font-size:14px }
 .ex .vid{ text-decoration:none; border:1px solid var(--ring); padding:8px 10px; border-radius:10px; }
-.ex input[type="checkbox"]{ width:24px; height:24px }
+.ex input[type="checkbox"]{ width:24px; height:24px; }
 
 /* protein block */
 .protein-ui{ display:flex; flex-wrap:wrap; gap:12px; align-items:center }

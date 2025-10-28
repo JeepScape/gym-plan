@@ -6,7 +6,7 @@
   function getLS(k, def){ try{ return JSON.parse(localStorage.getItem(k)) ?? def }catch{ return def } }
   function setLS(k, v){ localStorage.setItem(k, JSON.stringify(v)); }
 
-  // ---- Theme button
+  // Theme
   const themeBtn = $('#themeBtn');
   const savedTheme = getLS('theme', null);
   if(savedTheme){ document.documentElement.classList.toggle('theme-light', savedTheme==='light'); themeBtn.setAttribute('aria-pressed', savedTheme==='light'); }
@@ -17,7 +17,7 @@
     setLS('theme', light?'light':'dark');
   });
 
-  // ---- Protein calculator
+  // Protein calc
   function calcProtein(){
     const bw = parseFloat($('#bw').value||'0')||0;
     const pf = parseFloat(document.querySelector('input[name="pf"]:checked')?.value || '1.8');
@@ -31,7 +31,7 @@
   document.querySelectorAll('input[name="pf"]').forEach(r=> r.addEventListener('change', calcProtein));
   calcProtein();
 
-  // ---- Fitness display
+  // Fitness
   async function loadFitness(){
     const box = $('#fitness');
     try{
@@ -49,7 +49,7 @@
   }
   loadFitness();
 
-  // ---- Plan rendering
+  // Plan rendering
   async function fetchPlan(){
     const res = await fetch('plan.json?ts='+Date.now(), {cache:'no-store'});
     if(!res.ok) throw new Error('plan not found');

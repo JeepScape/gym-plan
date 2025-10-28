@@ -1,8 +1,4321 @@
 {
-  "generated_at": "2025-10-28T08:47:28.200704Z",
+  "generated_at": "2025-10-28T09:05:29.946884Z",
   "weeks": [
     {
       "week_index": 1,
+      "start_date": "2024-12-29",
+      "end_date": "2025-01-04",
+      "days": [
+        {
+          "date": "2025-01-01",
+          "header_left": "Thursday · Workout 59 · Shoulders + Triceps",
+          "header_right": "Thu 01 Jan",
+          "exercises": [
+            {
+              "name": "Machine Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668303899"
+            },
+            {
+              "name": "Close Grip BB Press",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313842"
+            },
+            {
+              "name": "Incline DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309634"
+            },
+            {
+              "name": "Tricep Push Up",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314619"
+            },
+            {
+              "name": "Standing Reverse Cable Fly",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Cable Tricep Crossover",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313567"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-02",
+          "header_left": "Friday · Workout 60 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 02 Jan",
+          "exercises": [
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Dip Station Knee Raise",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317903"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Reverse Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668318060"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311223"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-04",
+          "header_left": "Sunday · Workout 61 · Chest",
+          "header_right": "Sun 04 Jan",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 2,
+      "start_date": "2025-01-05",
+      "end_date": "2025-01-11",
+      "days": [
+        {
+          "date": "2025-01-05",
+          "header_left": "Monday · Workout 62 · Incline Walk + Mobility",
+          "header_right": "Mon 05 Jan",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-01-06",
+          "header_left": "Tuesday · Workout 63 · Back + Biceps",
+          "header_right": "Tue 06 Jan",
+          "exercises": [
+            {
+              "name": "One Arm DB Row",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668308080"
+            },
+            {
+              "name": "BB/EZ Bar Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311527"
+            },
+            {
+              "name": "Lat Pulldown (Wide Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307905"
+            },
+            {
+              "name": "Single Arm DB Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311749"
+            },
+            {
+              "name": "Wide Grip Pull Up",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307987"
+            },
+            {
+              "name": "Reverse EZ Curls",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312748"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-07",
+          "header_left": "Wednesday · Workout 64 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 07 Jan",
+          "exercises": [
+            {
+              "name": "Leg Press (Single Leg)",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315747"
+            },
+            {
+              "name": "Seated Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316150"
+            },
+            {
+              "name": "Reverse Hyperextension",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316501"
+            },
+            {
+              "name": "Single Leg Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317113"
+            },
+            {
+              "name": "BB Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314976"
+            },
+            {
+              "name": "Lying DB Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-08",
+          "header_left": "Thursday · Workout 65 · Shoulders + Triceps",
+          "header_right": "Thu 08 Jan",
+          "exercises": [
+            {
+              "name": "Reverse Pec Deck",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310644"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Flat)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314185"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Slow)",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668309799"
+            },
+            {
+              "name": "Standing Cable Press Down (Straight Bar)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314343"
+            },
+            {
+              "name": "Lying Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668309967"
+            },
+            {
+              "name": "Tricep Dip",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668313461"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-09",
+          "header_left": "Friday · Workout 66 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 09 Jan",
+          "exercises": [
+            {
+              "name": "Ball Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317614"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Ab Rollout",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317454"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Cable Woodchop",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317676"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311382"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-11",
+          "header_left": "Sunday · Workout 67 · Chest",
+          "header_right": "Sun 11 Jan",
+          "exercises": [
+            {
+              "name": "Flat DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305240"
+            },
+            {
+              "name": "Decline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305533"
+            },
+            {
+              "name": "Press Ups - Feet Elevated",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307157"
+            },
+            {
+              "name": "Incline BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305144"
+            },
+            {
+              "name": "Incline Smith Machine Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306879"
+            },
+            {
+              "name": "Seated Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 3,
+      "start_date": "2025-01-12",
+      "end_date": "2025-01-18",
+      "days": [
+        {
+          "date": "2025-01-12",
+          "header_left": "Monday · Workout 68 · Incline Walk + Mobility",
+          "header_right": "Mon 12 Jan",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-01-13",
+          "header_left": "Tuesday · Workout 69 · Back + Biceps",
+          "header_right": "Tue 13 Jan",
+          "exercises": [
+            {
+              "name": "Pull Up (Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307741"
+            },
+            {
+              "name": "Spider Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "T-Bar Row",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304926"
+            },
+            {
+              "name": "Incline DB Hammer Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312578"
+            },
+            {
+              "name": "One Arm DB Row (Elbow Wide)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308149"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313182"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-14",
+          "header_left": "Wednesday · Workout 70 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 14 Jan",
+          "exercises": [
+            {
+              "name": "Leg Press (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314691"
+            },
+            {
+              "name": "Rowing Machine Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316661"
+            },
+            {
+              "name": "Hyperextension (Glute Focus)",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317197"
+            },
+            {
+              "name": "Leg Press Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316994"
+            },
+            {
+              "name": "Leg Extension",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668315562"
+            },
+            {
+              "name": "Nordic Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-15",
+          "header_left": "Thursday · Workout 71 · Shoulders + Triceps",
+          "header_right": "Thu 15 Jan",
+          "exercises": [
+            {
+              "name": "BB Shoulder Press (In Cage)",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310785"
+            },
+            {
+              "name": "Bench Dips",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313334"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Swing)",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309540"
+            },
+            {
+              "name": "Overhead Rope Tricep Extension",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314100"
+            },
+            {
+              "name": "Standing BB Press",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309274"
+            },
+            {
+              "name": "EZ Bar Skull Crusher",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313964"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-16",
+          "header_left": "Friday · Workout 72 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 16 Jan",
+          "exercises": [
+            {
+              "name": "Rope Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668303505"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Decline Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317976"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Around The Worlds",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317527"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310924"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-18",
+          "header_left": "Sunday · Workout 73 · Chest",
+          "header_right": "Sun 18 Jan",
+          "exercises": [
+            {
+              "name": "Press Ups - Torso Elevated",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307269"
+            },
+            {
+              "name": "Pec Deck",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304351"
+            },
+            {
+              "name": "Alternating Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306740"
+            },
+            {
+              "name": "Chest Focused Dips",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305878"
+            },
+            {
+              "name": "Hammer Plate Press (Incline)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306354"
+            },
+            {
+              "name": "Hammer Plate Press (Flat)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 4,
+      "start_date": "2025-01-19",
+      "end_date": "2025-01-25",
+      "days": [
+        {
+          "date": "2025-01-19",
+          "header_left": "Monday · Workout 74 · Incline Walk + Mobility",
+          "header_right": "Mon 19 Jan",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-01-20",
+          "header_left": "Tuesday · Workout 75 · Back + Biceps",
+          "header_right": "Tue 20 Jan",
+          "exercises": [
+            {
+              "name": "BB Bent Over Row (Underhand)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307363"
+            },
+            {
+              "name": "Machine Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668304099"
+            },
+            {
+              "name": "Incline Bench DB Row (Elbows Wide)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308530"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Hyperextesion (Spine Focus)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308991"
+            },
+            {
+              "name": "DB Concentration Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311927"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-21",
+          "header_left": "Wednesday · Workout 76 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 21 Jan",
+          "exercises": [
+            {
+              "name": "DB Bulgarian Split Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315192"
+            },
+            {
+              "name": "Lying Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315997"
+            },
+            {
+              "name": "BB Hip Thrust",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316743"
+            },
+            {
+              "name": "Seated Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303208"
+            },
+            {
+              "name": "Walking DB Lunges (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315823"
+            },
+            {
+              "name": "Lying Leg Curl (Single Leg)",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316068"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-22",
+          "header_left": "Thursday · Workout 77 · Shoulders + Triceps",
+          "header_right": "Thu 22 Jan",
+          "exercises": [
+            {
+              "name": "Seated Cable Y-Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304726"
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314442"
+            },
+            {
+              "name": "Seated DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309381"
+            },
+            {
+              "name": "DB Tricep Kickback",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314534"
+            },
+            {
+              "name": "Seated DB Shoulder Press",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310260"
+            },
+            {
+              "name": "Close Grip BB Press (Smith Machine)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313703"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-23",
+          "header_left": "Friday · Workout 78 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 23 Jan",
+          "exercises": [
+            {
+              "name": "Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317754"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Dip Station Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317903"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311089"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-25",
+          "header_left": "Sunday · Workout 79 · Chest",
+          "header_right": "Sun 25 Jan",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 5,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-01",
+      "days": [
+        {
+          "date": "2025-01-26",
+          "header_left": "Monday · Workout 80 · Incline Walk + Mobility",
+          "header_right": "Mon 26 Jan",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-01-27",
+          "header_left": "Tuesday · Workout 81 · Back + Biceps",
+          "header_right": "Tue 27 Jan",
+          "exercises": [
+            {
+              "name": "Chin Up",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668308630"
+            },
+            {
+              "name": "Standing Curls - 21s",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312890"
+            },
+            {
+              "name": "DB Pullover",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309122"
+            },
+            {
+              "name": "BB/EZ Bar Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311527"
+            },
+            {
+              "name": "DB Bent Over Rear Delt Fly",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307456"
+            },
+            {
+              "name": "Single Arm DB Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311749"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-28",
+          "header_left": "Wednesday · Workout 82 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 28 Jan",
+          "exercises": [
+            {
+              "name": "Smith Machine Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304860"
+            },
+            {
+              "name": "Glute Ham Raise",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304521"
+            },
+            {
+              "name": "Walking DB Lunges (Glute Focus)",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668315907"
+            },
+            {
+              "name": "Standing Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316920"
+            },
+            {
+              "name": "BB Box Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314873"
+            },
+            {
+              "name": "Romanian Deadlift",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316232"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-29",
+          "header_left": "Thursday · Workout 83 · Shoulders + Triceps",
+          "header_right": "Thu 29 Jan",
+          "exercises": [
+            {
+              "name": "Chest Supported DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309460"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Incline)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314269"
+            },
+            {
+              "name": "Rear Delt Upright Row",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310527"
+            },
+            {
+              "name": "Close Grip BB Press",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313842"
+            },
+            {
+              "name": "Single Arm Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310134"
+            },
+            {
+              "name": "Tricep Push Up",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314619"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-30",
+          "header_left": "Friday · Workout 84 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 30 Jan",
+          "exercises": [
+            {
+              "name": "Reverse Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668318060"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Ball Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317614"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Ab Rollout",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317454"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311223"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-01",
+          "header_left": "Sunday · Workout 85 · Chest",
+          "header_right": "Sun 01 Feb",
+          "exercises": [
+            {
+              "name": "Flat DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305240"
+            },
+            {
+              "name": "Decline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305533"
+            },
+            {
+              "name": "Press Ups - Feet Elevated",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307157"
+            },
+            {
+              "name": "Incline BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305144"
+            },
+            {
+              "name": "Incline Smith Machine Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306879"
+            },
+            {
+              "name": "Seated Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 6,
+      "start_date": "2025-02-02",
+      "end_date": "2025-02-08",
+      "days": [
+        {
+          "date": "2025-02-02",
+          "header_left": "Monday · Workout 86 · Incline Walk + Mobility",
+          "header_right": "Mon 02 Feb",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-02-03",
+          "header_left": "Tuesday · Workout 87 · Back + Biceps",
+          "header_right": "Tue 03 Feb",
+          "exercises": [
+            {
+              "name": "BB Deadlifts",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668308324"
+            },
+            {
+              "name": "Reverse EZ Curls",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312748"
+            },
+            {
+              "name": "Seated Cable Row (Pronated Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307546"
+            },
+            {
+              "name": "Spider Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Incline Bench DB Row (Elbows Narrow)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668308414"
+            },
+            {
+              "name": "Incline DB Hammer Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312578"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-04",
+          "header_left": "Wednesday · Workout 88 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 04 Feb",
+          "exercises": [
+            {
+              "name": "Leg Extension (Single Leg)",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315645"
+            },
+            {
+              "name": "Seated Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316150"
+            },
+            {
+              "name": "Hip Abductor",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317298"
+            },
+            {
+              "name": "Single Leg Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317113"
+            },
+            {
+              "name": "Heel Elevated Front Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315095"
+            },
+            {
+              "name": "Lying DB Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-05",
+          "header_left": "Thursday · Workout 89 · Shoulders + Triceps",
+          "header_right": "Thu 05 Feb",
+          "exercises": [
+            {
+              "name": "Machine Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668303899"
+            },
+            {
+              "name": "Cable Tricep Crossover",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668313567"
+            },
+            {
+              "name": "Incline DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668309634"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Flat)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314185"
+            },
+            {
+              "name": "Standing Reverse Cable Fly",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Standing Cable Press Down (Straight Bar)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314343"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-06",
+          "header_left": "Friday · Workout 90 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 06 Feb",
+          "exercises": [
+            {
+              "name": "Cable Woodchop",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317676"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Rope Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303505"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Decline Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317976"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311382"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-08",
+          "header_left": "Sunday · Workout 91 · Chest",
+          "header_right": "Sun 08 Feb",
+          "exercises": [
+            {
+              "name": "Press Ups - Torso Elevated",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307269"
+            },
+            {
+              "name": "Pec Deck",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668304351"
+            },
+            {
+              "name": "Alternating Cable Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306740"
+            },
+            {
+              "name": "Chest Focused Dips",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305878"
+            },
+            {
+              "name": "Hammer Plate Press (Incline)",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306354"
+            },
+            {
+              "name": "Hammer Plate Press (Flat)",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 7,
+      "start_date": "2025-02-09",
+      "end_date": "2025-02-15",
+      "days": [
+        {
+          "date": "2025-02-09",
+          "header_left": "Monday · Workout 92 · Incline Walk + Mobility",
+          "header_right": "Mon 09 Feb",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-02-10",
+          "header_left": "Tuesday · Workout 93 · Back + Biceps",
+          "header_right": "Tue 10 Feb",
+          "exercises": [
+            {
+              "name": "Seated One Arm Iso Row (Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304609"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Rack Deadlift",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308239"
+            },
+            {
+              "name": "Machine Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304099"
+            },
+            {
+              "name": "Single Arm Cable Row",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308764"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312096"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-11",
+          "header_left": "Wednesday · Workout 94 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 11 Feb",
+          "exercises": [
+            {
+              "name": "Heel Elevated DB Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668315396"
+            },
+            {
+              "name": "Rowing Machine Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316661"
+            },
+            {
+              "name": "Sumo Deadlift",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316843"
+            },
+            {
+              "name": "Leg Press Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316994"
+            },
+            {
+              "name": "Static DB Lunge",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668315747"
+            },
+            {
+              "name": "Nordic Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-12",
+          "header_left": "Thursday · Workout 95 · Shoulders + Triceps",
+          "header_right": "Thu 12 Feb",
+          "exercises": [
+            {
+              "name": "Reverse Pec Deck",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310644"
+            },
+            {
+              "name": "Tricep Dip",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313461"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Slow)",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309799"
+            },
+            {
+              "name": "Bench Dips",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313334"
+            },
+            {
+              "name": "Lying Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309967"
+            },
+            {
+              "name": "Overhead Rope Tricep Extension",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314100"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-13",
+          "header_left": "Friday · Workout 96 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 13 Feb",
+          "exercises": [
+            {
+              "name": "Around The Worlds",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317527"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317754"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310924"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-15",
+          "header_left": "Sunday · Workout 97 · Chest",
+          "header_right": "Sun 15 Feb",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 8,
+      "start_date": "2025-02-16",
+      "end_date": "2025-02-22",
+      "days": [
+        {
+          "date": "2025-02-16",
+          "header_left": "Monday · Workout 98 · Incline Walk + Mobility",
+          "header_right": "Mon 16 Feb",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-02-17",
+          "header_left": "Tuesday · Workout 99 · Back + Biceps",
+          "header_right": "Tue 17 Feb",
+          "exercises": [
+            {
+              "name": "Lat Pulldown (Wide Grip)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307832"
+            },
+            {
+              "name": "DB Concentration Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311927"
+            },
+            {
+              "name": "Cable Pulldown",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308886"
+            },
+            {
+              "name": "Standing Curls - 21s",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312890"
+            },
+            {
+              "name": "BB Bent Over Row (Overhand)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668303624"
+            },
+            {
+              "name": "BB/EZ Bar Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311527"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-18",
+          "header_left": "Wednesday · Workout 100 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 18 Feb",
+          "exercises": [
+            {
+              "name": "Leg Press (Single Leg)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315747"
+            },
+            {
+              "name": "Lying Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315997"
+            },
+            {
+              "name": "Smith Machine Bulgarian Split Squat",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316418"
+            },
+            {
+              "name": "Seated Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303208"
+            },
+            {
+              "name": "BB Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314976"
+            },
+            {
+              "name": "Lying Leg Curl (Single Leg)",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316068"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-19",
+          "header_left": "Thursday · Workout 101 · Shoulders + Triceps",
+          "header_right": "Thu 19 Feb",
+          "exercises": [
+            {
+              "name": "BB Shoulder Press (In Cage)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310785"
+            },
+            {
+              "name": "EZ Bar Skull Crusher",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313964"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Swing)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309540"
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314442"
+            },
+            {
+              "name": "Standing BB Press",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309274"
+            },
+            {
+              "name": "DB Tricep Kickback",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314534"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-20",
+          "header_left": "Friday · Workout 102 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 20 Feb",
+          "exercises": [
+            {
+              "name": "Dip Station Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317903"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Reverse Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668318060"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Ball Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317614"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311089"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-22",
+          "header_left": "Sunday · Workout 103 · Chest",
+          "header_right": "Sun 22 Feb",
+          "exercises": [
+            {
+              "name": "Flat DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305240"
+            },
+            {
+              "name": "Decline DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305533"
+            },
+            {
+              "name": "Press Ups - Feet Elevated",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307157"
+            },
+            {
+              "name": "Incline BB Bench Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305144"
+            },
+            {
+              "name": "Incline Smith Machine Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306879"
+            },
+            {
+              "name": "Seated Cable Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 9,
+      "start_date": "2025-02-23",
+      "end_date": "2025-03-01",
+      "days": [
+        {
+          "date": "2025-02-23",
+          "header_left": "Monday · Workout 104 · Incline Walk + Mobility",
+          "header_right": "Mon 23 Feb",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-02-24",
+          "header_left": "Tuesday · Workout 105 · Back + Biceps",
+          "header_right": "Tue 24 Feb",
+          "exercises": [
+            {
+              "name": "Seated Cable Row (Wide Neutral Grip)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307636"
+            },
+            {
+              "name": "Single Arm DB Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311749"
+            },
+            {
+              "name": "Single Arm Lat Pulldown",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668304215"
+            },
+            {
+              "name": "Reverse EZ Curls",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312748"
+            },
+            {
+              "name": "One Arm DB Row",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668308080"
+            },
+            {
+              "name": "Spider Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312273"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-25",
+          "header_left": "Wednesday · Workout 106 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 25 Feb",
+          "exercises": [
+            {
+              "name": "Leg Press (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314691"
+            },
+            {
+              "name": "Glute Ham Raise",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304521"
+            },
+            {
+              "name": "Leg Press (Glute/Ham Focus)",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314775"
+            },
+            {
+              "name": "Standing Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316920"
+            },
+            {
+              "name": "Leg Extension",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668315562"
+            },
+            {
+              "name": "Romanian Deadlift",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316232"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-26",
+          "header_left": "Thursday · Workout 107 · Shoulders + Triceps",
+          "header_right": "Thu 26 Feb",
+          "exercises": [
+            {
+              "name": "Seated Cable Y-Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304726"
+            },
+            {
+              "name": "Close Grip BB Press (Smith Machine)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313703"
+            },
+            {
+              "name": "Seated DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309381"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Incline)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314269"
+            },
+            {
+              "name": "Seated DB Shoulder Press",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310260"
+            },
+            {
+              "name": "Close Grip BB Press",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313842"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-27",
+          "header_left": "Friday · Workout 108 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 27 Feb",
+          "exercises": [
+            {
+              "name": "Ab Rollout",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317454"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Cable Woodchop",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317676"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Rope Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668303505"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311223"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-01",
+          "header_left": "Sunday · Workout 109 · Chest",
+          "header_right": "Sun 01 Mar",
+          "exercises": [
+            {
+              "name": "Press Ups - Torso Elevated",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307269"
+            },
+            {
+              "name": "Pec Deck",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668304351"
+            },
+            {
+              "name": "Alternating Cable Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306740"
+            },
+            {
+              "name": "Chest Focused Dips",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305878"
+            },
+            {
+              "name": "Hammer Plate Press (Incline)",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306354"
+            },
+            {
+              "name": "Hammer Plate Press (Flat)",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 10,
+      "start_date": "2025-03-02",
+      "end_date": "2025-03-08",
+      "days": [
+        {
+          "date": "2025-03-02",
+          "header_left": "Monday · Workout 110 · Incline Walk + Mobility",
+          "header_right": "Mon 02 Mar",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-03-03",
+          "header_left": "Tuesday · Workout 111 · Back + Biceps",
+          "header_right": "Tue 03 Mar",
+          "exercises": [
+            {
+              "name": "Lat Pulldown (Wide Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307905"
+            },
+            {
+              "name": "Incline DB Hammer Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312578"
+            },
+            {
+              "name": "Wide Grip Pull Up",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307987"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "Pull Up (Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307741"
+            },
+            {
+              "name": "Machine Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304099"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-04",
+          "header_left": "Wednesday · Workout 112 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 04 Mar",
+          "exercises": [
+            {
+              "name": "DB Bulgarian Split Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315192"
+            },
+            {
+              "name": "Seated Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316150"
+            },
+            {
+              "name": "Reverse Hyperextension",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316501"
+            },
+            {
+              "name": "Single Leg Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317113"
+            },
+            {
+              "name": "Walking DB Lunges (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315823"
+            },
+            {
+              "name": "Lying DB Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-05",
+          "header_left": "Thursday · Workout 113 · Shoulders + Triceps",
+          "header_right": "Thu 05 Mar",
+          "exercises": [
+            {
+              "name": "Chest Supported DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668309460"
+            },
+            {
+              "name": "Tricep Push Up",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314619"
+            },
+            {
+              "name": "Rear Delt Upright Row",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310527"
+            },
+            {
+              "name": "Cable Tricep Crossover",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668313567"
+            },
+            {
+              "name": "Single Arm Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310134"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Flat)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314185"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-06",
+          "header_left": "Friday · Workout 114 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 06 Mar",
+          "exercises": [
+            {
+              "name": "Decline Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317976"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Around The Worlds",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317527"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317754"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311382"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-08",
+          "header_left": "Sunday · Workout 115 · Chest",
+          "header_right": "Sun 08 Mar",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 11,
+      "start_date": "2025-03-09",
+      "end_date": "2025-03-15",
+      "days": [
+        {
+          "date": "2025-03-09",
+          "header_left": "Monday · Workout 116 · Incline Walk + Mobility",
+          "header_right": "Mon 09 Mar",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-03-10",
+          "header_left": "Tuesday · Workout 117 · Back + Biceps",
+          "header_right": "Tue 10 Mar",
+          "exercises": [
+            {
+              "name": "T-Bar Row",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304926"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "One Arm DB Row (Elbow Wide)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308149"
+            },
+            {
+              "name": "DB Concentration Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311927"
+            },
+            {
+              "name": "BB Bent Over Row (Underhand)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307363"
+            },
+            {
+              "name": "Standing Curls - 21s",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312890"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-11",
+          "header_left": "Wednesday · Workout 118 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 11 Mar",
+          "exercises": [
+            {
+              "name": "Smith Machine Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668304860"
+            },
+            {
+              "name": "Rowing Machine Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316661"
+            },
+            {
+              "name": "Hyperextension (Glute Focus)",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317197"
+            },
+            {
+              "name": "Leg Press Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316994"
+            },
+            {
+              "name": "BB Box Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314873"
+            },
+            {
+              "name": "Nordic Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-12",
+          "header_left": "Thursday · Workout 119 · Shoulders + Triceps",
+          "header_right": "Thu 12 Mar",
+          "exercises": [
+            {
+              "name": "Machine Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303899"
+            },
+            {
+              "name": "Standing Cable Press Down (Straight Bar)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314343"
+            },
+            {
+              "name": "Incline DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309634"
+            },
+            {
+              "name": "Tricep Dip",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313461"
+            },
+            {
+              "name": "Standing Reverse Cable Fly",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "Bench Dips",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313334"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-13",
+          "header_left": "Friday · Workout 120 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 13 Mar",
+          "exercises": [
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Dip Station Knee Raise",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317903"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Reverse Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668318060"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310924"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-15",
+          "header_left": "Sunday · Workout 121 · Chest",
+          "header_right": "Sun 15 Mar",
+          "exercises": [
+            {
+              "name": "Flat DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305240"
+            },
+            {
+              "name": "Decline DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305533"
+            },
+            {
+              "name": "Press Ups - Feet Elevated",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307157"
+            },
+            {
+              "name": "Incline BB Bench Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305144"
+            },
+            {
+              "name": "Incline Smith Machine Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306879"
+            },
+            {
+              "name": "Seated Cable Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 12,
+      "start_date": "2025-03-16",
+      "end_date": "2025-03-22",
+      "days": [
+        {
+          "date": "2025-03-16",
+          "header_left": "Monday · Workout 122 · Incline Walk + Mobility",
+          "header_right": "Mon 16 Mar",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-03-17",
+          "header_left": "Tuesday · Workout 123 · Back + Biceps",
+          "header_right": "Tue 17 Mar",
+          "exercises": [
+            {
+              "name": "Incline Bench DB Row (Elbows Wide)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308530"
+            },
+            {
+              "name": "BB/EZ Bar Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311527"
+            },
+            {
+              "name": "Hyperextesion (Spine Focus)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308991"
+            },
+            {
+              "name": "Single Arm DB Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311749"
+            },
+            {
+              "name": "Chin Up",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308630"
+            },
+            {
+              "name": "Reverse EZ Curls",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312748"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-18",
+          "header_left": "Wednesday · Workout 124 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 18 Mar",
+          "exercises": [
+            {
+              "name": "Leg Extension (Single Leg)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315645"
+            },
+            {
+              "name": "Lying Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315997"
+            },
+            {
+              "name": "BB Hip Thrust",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316743"
+            },
+            {
+              "name": "Seated Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303208"
+            },
+            {
+              "name": "Heel Elevated Front Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315095"
+            },
+            {
+              "name": "Lying Leg Curl (Single Leg)",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316068"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-19",
+          "header_left": "Thursday · Workout 125 · Shoulders + Triceps",
+          "header_right": "Thu 19 Mar",
+          "exercises": [
+            {
+              "name": "Reverse Pec Deck",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310644"
+            },
+            {
+              "name": "Overhead Rope Tricep Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314100"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Slow)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309799"
+            },
+            {
+              "name": "EZ Bar Skull Crusher",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313964"
+            },
+            {
+              "name": "Lying Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309967"
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314442"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-20",
+          "header_left": "Friday · Workout 126 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 20 Mar",
+          "exercises": [
+            {
+              "name": "Ball Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317614"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Ab Rollout",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317454"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Cable Woodchop",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317676"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311089"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-22",
+          "header_left": "Sunday · Workout 127 · Chest",
+          "header_right": "Sun 22 Mar",
+          "exercises": [
+            {
+              "name": "Press Ups - Torso Elevated",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307269"
+            },
+            {
+              "name": "Pec Deck",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668304351"
+            },
+            {
+              "name": "Alternating Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306740"
+            },
+            {
+              "name": "Chest Focused Dips",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305878"
+            },
+            {
+              "name": "Hammer Plate Press (Incline)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306354"
+            },
+            {
+              "name": "Hammer Plate Press (Flat)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 13,
+      "start_date": "2025-03-23",
+      "end_date": "2025-03-29",
+      "days": [
+        {
+          "date": "2025-03-23",
+          "header_left": "Monday · Workout 128 · Incline Walk + Mobility",
+          "header_right": "Mon 23 Mar",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-03-24",
+          "header_left": "Tuesday · Workout 129 · Back + Biceps",
+          "header_right": "Tue 24 Mar",
+          "exercises": [
+            {
+              "name": "DB Pullover",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309122"
+            },
+            {
+              "name": "Spider Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "DB Bent Over Rear Delt Fly",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307456"
+            },
+            {
+              "name": "Incline DB Hammer Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312578"
+            },
+            {
+              "name": "BB Deadlifts",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668308324"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313182"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-25",
+          "header_left": "Wednesday · Workout 130 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 25 Mar",
+          "exercises": [
+            {
+              "name": "Heel Elevated DB Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668315396"
+            },
+            {
+              "name": "Glute Ham Raise",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304521"
+            },
+            {
+              "name": "Walking DB Lunges (Glute Focus)",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668315907"
+            },
+            {
+              "name": "Standing Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316920"
+            },
+            {
+              "name": "Static DB Lunge",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668315747"
+            },
+            {
+              "name": "Romanian Deadlift",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316232"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-26",
+          "header_left": "Thursday · Workout 131 · Shoulders + Triceps",
+          "header_right": "Thu 26 Mar",
+          "exercises": [
+            {
+              "name": "BB Shoulder Press (In Cage)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310785"
+            },
+            {
+              "name": "DB Tricep Kickback",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314534"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Swing)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309540"
+            },
+            {
+              "name": "Close Grip BB Press (Smith Machine)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313703"
+            },
+            {
+              "name": "Standing BB Press",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309274"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Incline)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314269"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-27",
+          "header_left": "Friday · Workout 132 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 27 Mar",
+          "exercises": [
+            {
+              "name": "Rope Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668303505"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Decline Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317976"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Around The Worlds",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317527"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311223"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-29",
+          "header_left": "Sunday · Workout 133 · Chest",
+          "header_right": "Sun 29 Mar",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 14,
+      "start_date": "2025-03-30",
+      "end_date": "2025-04-05",
+      "days": [
+        {
+          "date": "2025-03-30",
+          "header_left": "Monday · Workout 134 · Incline Walk + Mobility",
+          "header_right": "Mon 30 Mar",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-03-31",
+          "header_left": "Tuesday · Workout 135 · Back + Biceps",
+          "header_right": "Tue 31 Mar",
+          "exercises": [
+            {
+              "name": "Seated Cable Row (Pronated Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307546"
+            },
+            {
+              "name": "Machine Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304099"
+            },
+            {
+              "name": "Incline Bench DB Row (Elbows Narrow)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668308414"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668312096"
+            },
+            {
+              "name": "Seated One Arm Iso Row (Neutral Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304609"
+            },
+            {
+              "name": "DB Concentration Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311927"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-01",
+          "header_left": "Wednesday · Workout 136 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 01 Apr",
+          "exercises": [
+            {
+              "name": "Leg Press (Single Leg)",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668315747"
+            },
+            {
+              "name": "Seated Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316150"
+            },
+            {
+              "name": "Hip Abductor",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317298"
+            },
+            {
+              "name": "Single Leg Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317113"
+            },
+            {
+              "name": "BB Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314976"
+            },
+            {
+              "name": "Lying DB Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-02",
+          "header_left": "Thursday · Workout 137 · Shoulders + Triceps",
+          "header_right": "Thu 02 Apr",
+          "exercises": [
+            {
+              "name": "Seated Cable Y-Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668304726"
+            },
+            {
+              "name": "Close Grip BB Press",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668313842"
+            },
+            {
+              "name": "Seated DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668309381"
+            },
+            {
+              "name": "Tricep Push Up",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314619"
+            },
+            {
+              "name": "Seated DB Shoulder Press",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310260"
+            },
+            {
+              "name": "Cable Tricep Crossover",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668313567"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-03",
+          "header_left": "Friday · Workout 138 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 03 Apr",
+          "exercises": [
+            {
+              "name": "Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317754"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Dip Station Knee Raise",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668317903"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668311382"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-05",
+          "header_left": "Sunday · Workout 139 · Chest",
+          "header_right": "Sun 05 Apr",
+          "exercises": [
+            {
+              "name": "Flat DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305240"
+            },
+            {
+              "name": "Decline DB Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305533"
+            },
+            {
+              "name": "Press Ups - Feet Elevated",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307157"
+            },
+            {
+              "name": "Incline BB Bench Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668305144"
+            },
+            {
+              "name": "Incline Smith Machine Press",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306879"
+            },
+            {
+              "name": "Seated Cable Fly",
+              "muscle": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668306225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 15,
+      "start_date": "2025-04-06",
+      "end_date": "2025-04-12",
+      "days": [
+        {
+          "date": "2025-04-06",
+          "header_left": "Monday · Workout 140 · Incline Walk + Mobility",
+          "header_right": "Mon 06 Apr",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-04-07",
+          "header_left": "Tuesday · Workout 141 · Back + Biceps",
+          "header_right": "Tue 07 Apr",
+          "exercises": [
+            {
+              "name": "Rack Deadlift",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308239"
+            },
+            {
+              "name": "Standing Curls - 21s",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668312890"
+            },
+            {
+              "name": "Single Arm Cable Row",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668308764"
+            },
+            {
+              "name": "BB/EZ Bar Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311527"
+            },
+            {
+              "name": "Lat Pulldown (Wide Grip)",
+              "muscle": "Back",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307832"
+            },
+            {
+              "name": "Single Arm DB Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311749"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-08",
+          "header_left": "Wednesday · Workout 142 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 08 Apr",
+          "exercises": [
+            {
+              "name": "Leg Press (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668314691"
+            },
+            {
+              "name": "Rowing Machine Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316661"
+            },
+            {
+              "name": "Sumo Deadlift",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316843"
+            },
+            {
+              "name": "Leg Press Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316994"
+            },
+            {
+              "name": "Leg Extension",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668315562"
+            },
+            {
+              "name": "Nordic Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668316314"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-09",
+          "header_left": "Thursday · Workout 143 · Shoulders + Triceps",
+          "header_right": "Thu 09 Apr",
+          "exercises": [
+            {
+              "name": "Chest Supported DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668309460"
+            },
+            {
+              "name": "Single Arm DB Tricep Ext (Flat)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314185"
+            },
+            {
+              "name": "Rear Delt Upright Row",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310527"
+            },
+            {
+              "name": "Standing Cable Press Down (Straight Bar)",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668314343"
+            },
+            {
+              "name": "Single Arm Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668310134"
+            },
+            {
+              "name": "Tricep Dip",
+              "muscle": "Triceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313461"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-10",
+          "header_left": "Friday · Workout 144 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 10 Apr",
+          "exercises": [
+            {
+              "name": "Reverse Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668318060"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Ball Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317614"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668311089"
+            },
+            {
+              "name": "Ab Rollout",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668317454"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310924"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-12",
+          "header_left": "Sunday · Workout 145 · Chest",
+          "header_right": "Sun 12 Apr",
+          "exercises": [
+            {
+              "name": "Press Ups - Torso Elevated",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668307269"
+            },
+            {
+              "name": "Pec Deck",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304351"
+            },
+            {
+              "name": "Alternating Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306740"
+            },
+            {
+              "name": "Chest Focused Dips",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668305878"
+            },
+            {
+              "name": "Hammer Plate Press (Incline)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306354"
+            },
+            {
+              "name": "Hammer Plate Press (Flat)",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668306484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 16,
+      "start_date": "2025-04-13",
+      "end_date": "2025-04-19",
+      "days": [
+        {
+          "date": "2025-04-13",
+          "header_left": "Monday · Workout 146 · Incline Walk + Mobility",
+          "header_right": "Mon 13 Apr",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-04-14",
+          "header_left": "Tuesday · Workout 147 · Back + Biceps",
+          "header_right": "Tue 14 Apr",
+          "exercises": [
+            {
+              "name": "Cable Pulldown",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668308886"
+            },
+            {
+              "name": "Reverse EZ Curls",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312748"
+            },
+            {
+              "name": "BB Bent Over Row (Overhand)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668303624"
+            },
+            {
+              "name": "Spider Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312273"
+            },
+            {
+              "name": "Seated Cable Row (Wide Neutral Grip)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668307636"
+            },
+            {
+              "name": "Incline DB Hammer Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668312578"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-15",
+          "header_left": "Wednesday · Workout 148 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 15 Apr",
+          "exercises": [
+            {
+              "name": "DB Bulgarian Split Squat",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315192"
+            },
+            {
+              "name": "Lying Leg Curl",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315997"
+            },
+            {
+              "name": "Smith Machine Bulgarian Split Squat",
+              "muscle": "Glutes",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316418"
+            },
+            {
+              "name": "Seated Calf Raise",
+              "muscle": "Calves",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668303208"
+            },
+            {
+              "name": "Walking DB Lunges (Quad Focus)",
+              "muscle": "Quads",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668315823"
+            },
+            {
+              "name": "Lying Leg Curl (Single Leg)",
+              "muscle": "Hamstrings",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668316068"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-16",
+          "header_left": "Thursday · Workout 149 · Shoulders + Triceps",
+          "header_right": "Thu 16 Apr",
+          "exercises": [
+            {
+              "name": "Machine Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668303899"
+            },
+            {
+              "name": "Bench Dips",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313334"
+            },
+            {
+              "name": "Incline DB Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668309634"
+            },
+            {
+              "name": "Overhead Rope Tricep Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314100"
+            },
+            {
+              "name": "Standing Reverse Cable Fly",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668310394"
+            },
+            {
+              "name": "EZ Bar Skull Crusher",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668313964"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-17",
+          "header_left": "Friday · Workout 150 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 17 Apr",
+          "exercises": [
+            {
+              "name": "Cable Woodchop",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317676"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Rope Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668303505"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311223"
+            },
+            {
+              "name": "Decline Crunch",
+              "muscle": "Abs",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668317976"
+            },
+            {
+              "name": "Incline DB Shrug",
+              "muscle": "Traps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668311089"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-19",
+          "header_left": "Sunday · Workout 151 · Chest",
+          "header_right": "Sun 19 Apr",
+          "exercises": [
+            {
+              "name": "Standing Cable Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306051"
+            },
+            {
+              "name": "Incline DB Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305386"
+            },
+            {
+              "name": "Flat BB Bench Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305022"
+            },
+            {
+              "name": "Press Ups",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668307023"
+            },
+            {
+              "name": "Flat or Incline DB Fly",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668305698"
+            },
+            {
+              "name": "Seated Cable Press",
+              "muscle": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668306605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 17,
+      "start_date": "2025-04-20",
+      "end_date": "2025-04-26",
+      "days": [
+        {
+          "date": "2025-04-20",
+          "header_left": "Monday · Workout 152 · Incline Walk + Mobility",
+          "header_right": "Mon 20 Apr",
+          "exercises": [
+            {
+              "name": "Treadmill Incline Walk",
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
+            }
+          ]
+        },
+        {
+          "date": "2025-04-21",
+          "header_left": "Tuesday · Workout 153 · Back + Biceps",
+          "header_right": "Tue 21 Apr",
+          "exercises": [
+            {
+              "name": "Single Arm Lat Pulldown",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668304215"
+            },
+            {
+              "name": "Cable Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668313182"
+            },
+            {
+              "name": "One Arm DB Row",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668308080"
+            },
+            {
+              "name": "Machine Preacher Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668304099"
+            },
+            {
+              "name": "Lat Pulldown (Wide Neutral Grip)",
+              "muscle": "Back",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668307905"
+            },
+            {
+              "name": "Seated DB Bicep Curl",
+              "muscle": "Biceps",
+              "sets": 3,
+              "reps": "12-15",
+              "video": "https://vimeo.com/668312096"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-22",
+          "header_left": "Wednesday · Workout 154 · Legs (Quads/Hams/Glutes/Calves)",
+          "header_right": "Wed 22 Apr",
+          "exercises": [
+            {
+              "name": "Smith Machine Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304860"
+            },
+            {
+              "name": "Glute Ham Raise",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668304521"
+            },
+            {
+              "name": "Leg Press (Glute/Ham Focus)",
+              "muscle": "Glutes",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314775"
+            },
+            {
+              "name": "Standing Calf Raise",
+              "muscle": "Calves",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316920"
+            },
+            {
+              "name": "BB Box Squat",
+              "muscle": "Quads",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668314873"
+            },
+            {
+              "name": "Romanian Deadlift",
+              "muscle": "Hamstrings",
+              "sets": 4,
+              "reps": "6-8",
+              "video": "https://vimeo.com/668316232"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-23",
+          "header_left": "Thursday · Workout 155 · Shoulders + Triceps",
+          "header_right": "Thu 23 Apr",
+          "exercises": [
+            {
+              "name": "Reverse Pec Deck",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668310644"
+            },
+            {
+              "name": "Tricep Rope Extension",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314442"
+            },
+            {
+              "name": "Incline Bench DB Rear Delt Fly (Slow)",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309799"
+            },
+            {
+              "name": "DB Tricep Kickback",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668314534"
+            },
+            {
+              "name": "Lying Cable Lateral Raise",
+              "muscle": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668309967"
+            },
+            {
+              "name": "Close Grip BB Press (Smith Machine)",
+              "muscle": "Triceps",
+              "sets": 4,
+              "reps": "8-10",
+              "video": "https://vimeo.com/668313703"
+            }
+          ]
+        },
+        {
+          "date": "2025-04-24",
+          "header_left": "Friday · Workout 156 · Core + Traps (Full Body Accessories)",
+          "header_right": "Fri 24 Apr",
+          "exercises": [
+            {
+              "name": "Around The Worlds",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317527"
+            },
+            {
+              "name": "BB Shrugs",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668310924"
+            },
+            {
+              "name": "Crunch",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317754"
+            },
+            {
+              "name": "Hex Bar Shrug",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311382"
+            },
+            {
+              "name": "Hanging Knee Raise",
+              "muscle": "Abs",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668317833"
+            },
+            {
+              "name": "Face Pull",
+              "muscle": "Traps",
+              "sets": 3,
+              "reps": "10-12",
+              "video": "https://vimeo.com/668311223"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_index": 18,
       "start_date": "2025-10-26",
       "end_date": "2025-11-01",
       "days": [
@@ -62,9 +4375,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -267,7 +4578,7 @@
       ]
     },
     {
-      "week_index": 2,
+      "week_index": 19,
       "start_date": "2025-11-02",
       "end_date": "2025-11-08",
       "days": [
@@ -298,7 +4609,7 @@
               "video": "https://vimeo.com/668305022"
             },
             {
-              "name": "Press Ups ",
+              "name": "Press Ups",
               "muscle": "Chest",
               "sets": 4,
               "reps": "8-10",
@@ -327,9 +4638,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -360,7 +4669,7 @@
               "video": "https://vimeo.com/668303624"
             },
             {
-              "name": "Incline DB Hammer Curl ",
+              "name": "Incline DB Hammer Curl",
               "muscle": "Biceps",
               "sets": 3,
               "reps": "12-15",
@@ -532,7 +4841,7 @@
       ]
     },
     {
-      "week_index": 3,
+      "week_index": 20,
       "start_date": "2025-11-09",
       "end_date": "2025-11-15",
       "days": [
@@ -592,9 +4901,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -618,7 +4925,7 @@
               "video": "https://vimeo.com/668304099"
             },
             {
-              "name": "One Arm DB Row ",
+              "name": "One Arm DB Row",
               "muscle": "Back",
               "sets": 4,
               "reps": "6-8",
@@ -797,7 +5104,7 @@
       ]
     },
     {
-      "week_index": 4,
+      "week_index": 21,
       "start_date": "2025-11-16",
       "end_date": "2025-11-22",
       "days": [
@@ -857,9 +5164,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -1062,7 +5367,7 @@
       ]
     },
     {
-      "week_index": 5,
+      "week_index": 22,
       "start_date": "2025-11-23",
       "end_date": "2025-11-29",
       "days": [
@@ -1093,7 +5398,7 @@
               "video": "https://vimeo.com/668305022"
             },
             {
-              "name": "Press Ups ",
+              "name": "Press Ups",
               "muscle": "Chest",
               "sets": 4,
               "reps": "6-8",
@@ -1122,9 +5427,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -1169,7 +5472,7 @@
               "video": "https://vimeo.com/668308530"
             },
             {
-              "name": "Incline DB Hammer Curl ",
+              "name": "Incline DB Hammer Curl",
               "muscle": "Biceps",
               "sets": 3,
               "reps": "10-12",
@@ -1211,7 +5514,7 @@
               "video": "https://vimeo.com/668303208"
             },
             {
-              "name": "BB Squat ",
+              "name": "BB Squat",
               "muscle": "Quads",
               "sets": 3,
               "reps": "12-15",
@@ -1327,7 +5630,7 @@
       ]
     },
     {
-      "week_index": 6,
+      "week_index": 23,
       "start_date": "2025-11-30",
       "end_date": "2025-12-06",
       "days": [
@@ -1387,9 +5690,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -1592,7 +5893,7 @@
       ]
     },
     {
-      "week_index": 7,
+      "week_index": 24,
       "start_date": "2025-12-07",
       "end_date": "2025-12-13",
       "days": [
@@ -1652,9 +5953,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -1857,7 +6156,7 @@
       ]
     },
     {
-      "week_index": 8,
+      "week_index": 25,
       "start_date": "2025-12-14",
       "end_date": "2025-12-20",
       "days": [
@@ -1888,7 +6187,7 @@
               "video": "https://vimeo.com/668305022"
             },
             {
-              "name": "Press Ups ",
+              "name": "Press Ups",
               "muscle": "Chest",
               "sets": 3,
               "reps": "12-15",
@@ -1917,9 +6216,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -2122,7 +6419,7 @@
       ]
     },
     {
-      "week_index": 9,
+      "week_index": 26,
       "start_date": "2025-12-21",
       "end_date": "2025-12-27",
       "days": [
@@ -2182,9 +6479,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -2201,7 +6496,7 @@
               "video": "https://vimeo.com/668308764"
             },
             {
-              "name": "Incline DB Hammer Curl ",
+              "name": "Incline DB Hammer Curl",
               "muscle": "Biceps",
               "sets": 3,
               "reps": "10-12",
@@ -2387,7 +6682,7 @@
       ]
     },
     {
-      "week_index": 10,
+      "week_index": 27,
       "start_date": "2025-12-28",
       "end_date": "2026-01-03",
       "days": [
@@ -2447,9 +6742,7 @@
           "exercises": [
             {
               "name": "Treadmill Incline Walk",
-              "muscle": NaN,
-              "sets": null,
-              "reps": null
+              "reps": "Incline walk at 8–12% for 30–45 min. Keep HR in Zone 2."
             }
           ]
         },
@@ -2552,102 +6845,6 @@
           ]
         }
       ]
-    },
-    {
-      "week_index": 11,
-      "start_date": "2026-01-04",
-      "end_date": "2026-01-10",
-      "days": []
-    },
-    {
-      "week_index": 12,
-      "start_date": "2026-01-11",
-      "end_date": "2026-01-17",
-      "days": []
-    },
-    {
-      "week_index": 13,
-      "start_date": "2026-01-18",
-      "end_date": "2026-01-24",
-      "days": []
-    },
-    {
-      "week_index": 14,
-      "start_date": "2026-01-25",
-      "end_date": "2026-01-31",
-      "days": []
-    },
-    {
-      "week_index": 15,
-      "start_date": "2026-02-01",
-      "end_date": "2026-02-07",
-      "days": []
-    },
-    {
-      "week_index": 16,
-      "start_date": "2026-02-08",
-      "end_date": "2026-02-14",
-      "days": []
-    },
-    {
-      "week_index": 17,
-      "start_date": "2026-02-15",
-      "end_date": "2026-02-21",
-      "days": []
-    },
-    {
-      "week_index": 18,
-      "start_date": "2026-02-22",
-      "end_date": "2026-02-28",
-      "days": []
-    },
-    {
-      "week_index": 19,
-      "start_date": "2026-03-01",
-      "end_date": "2026-03-07",
-      "days": []
-    },
-    {
-      "week_index": 20,
-      "start_date": "2026-03-08",
-      "end_date": "2026-03-14",
-      "days": []
-    },
-    {
-      "week_index": 21,
-      "start_date": "2026-03-15",
-      "end_date": "2026-03-21",
-      "days": []
-    },
-    {
-      "week_index": 22,
-      "start_date": "2026-03-22",
-      "end_date": "2026-03-28",
-      "days": []
-    },
-    {
-      "week_index": 23,
-      "start_date": "2026-03-29",
-      "end_date": "2026-04-04",
-      "days": []
-    },
-    {
-      "week_index": 24,
-      "start_date": "2026-04-05",
-      "end_date": "2026-04-11",
-      "days": []
-    },
-    {
-      "week_index": 25,
-      "start_date": "2026-04-12",
-      "end_date": "2026-04-18",
-      "days": []
-    },
-    {
-      "week_index": 26,
-      "start_date": "2026-04-19",
-      "end_date": "2026-04-25",
-      "days": []
     }
   ]
 }

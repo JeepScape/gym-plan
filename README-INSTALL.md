@@ -1,0 +1,1 @@
+Add <link rel='manifest' href='manifest.webmanifest'> and <link rel='stylesheet' href='assets/css/brand.css'> in <head>. Wrap body with <div class='app-wrap'>…</div>.

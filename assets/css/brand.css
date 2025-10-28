@@ -1,0 +1,12 @@
+/* 99 Strength brand pack */
+@font-face {
+  font-family: 'Runescape UF';
+  src: url('../fonts/runescape_uf.ttf') format('truetype');
+  font-display: swap;
+}
+:root { --brand-bg:#0c1117; --brand-card:#121826; --brand-text:#e6edf3; --brand-accent:#51f0b1; --brand-muted:#93a4b2; color-scheme: light dark; }
+html,body{background:var(--brand-bg);color:var(--brand-text);}
+body{font-family:'Runescape UF',ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial;}
+.app-wrap{padding-top:max(20px,env(safe-area-inset-top));padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));padding-bottom:max(16px,env(safe-area-inset-bottom));}
+.card{background:var(--brand-card);border:1px solid #243045;border-radius:16px;padding:16px;}
+.btn{background:#1b2433;border:1px solid #243045;color:var(--brand-text);border-radius:12px;padding:10px 16px;}

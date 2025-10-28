@@ -32,7 +32,7 @@
   document.querySelectorAll('input[name="pf"]').forEach(r=> r.addEventListener('change', calcProtein));
   calcProtein();
 
-  // ---- Fitness
+  // ---- Fitness display
   async function loadFitness(){
     const box = $('#fitness');
     try{
@@ -50,26 +50,17 @@
   }
   loadFitness();
 
-  // ---- Plan
+  // ---- Plan rendering
   async function fetchPlan(){
     const res = await fetch('plan.json?ts='+Date.now(), {cache:'no-store'});
     if(!res.ok) throw new Error('plan not found');
     return res.json();
   }
 
-  function buildHeadingLeft(dayName, workoutNumber, type){
-    const cleanType = (type || 'Training').replace(/^workout\\s*\\d+\\s*-\\s*/i, '').trim();
-    return `${dayName} – Workout ${workoutNumber} – ${cleanType}`;
-  }
-  function buildHeadingRight(dateObj){
-    const dn = dayNames[dateObj.getDay()];
-    return `${dn} ${String(dateObj.getDate()).padStart(2,'0')} ${mon[dateObj.getMonth()]}`;
-  }
-
   function renderWeek(week){
     const container = $('#week');
     container.innerHTML = '';
-    week.days.forEach((d, di)=>{
+    week.days.forEach((d)=>{
       const node = document.importNode($('#dayTpl').content, true);
       const art = node.querySelector('.day');
       const left = node.querySelector('.left');
@@ -77,9 +68,8 @@
       const ul = node.querySelector('.exercises');
 
       const date = new Date(d.date + 'T00:00:00');
-      const dayName = dayNames[date.getDay()];
-      left.textContent = buildHeadingLeft(dayName, d.workoutNumber || (di+1), d.type);
-      right.textContent = buildHeadingRight(date);
+      left.textContent = d.header_left || 'Training';
+      right.textContent = d.header_right || `${dayNames[date.getDay()]} ${String(date.getDate()).padStart(2,'0')} ${mon[date.getMonth()]}`;
 
       const t = new Date();
       if (date.getFullYear()===t.getFullYear() && date.getMonth()===t.getMonth() && date.getDate()===t.getDate()){

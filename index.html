@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Workout Calendar for 99 Strength</title>
   <link rel="preconnect" href="https://player.vimeo.com">
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=9" />
   <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png">
-<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
-<meta name="theme-color" content="#0c1117">
-
-<!-- Brand stylesheet (after your main CSS so it can override) -->
-<link rel="stylesheet" href="assets/css/brand.css">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <meta name="theme-color" content="#0c1117">
 </head>
 <body>
-  <header class="wrap">
-    <h1>Workout Calendar<br><span>for 99 Strength</span></h1>
-    <button id="themeBtn" class="pill">Theme</button>
-    <p class="sub">6 days training, 1 day rest. Empty days become <b>Incline Walk + Mobility</b>.</p>
-    <nav class="row gap">
+  <header class="wrap header">
+    <div class="title-row">
+      <img class="brand-icon" src="assets/icons/icon-192.png" alt="App icon" width="36" height="36" decoding="async" />
+      <h1 class="title">Workout Calendar <span class="for99">for 99 Strength</span></h1>
+      <button id="themeBtn" class="pill" aria-pressed="false" aria-label="Toggle theme">Theme</button>
+    </div>
+    <p class="sub" id="app-desc">A simple weekly training calendar: 6 training days, 1 rest. Empty days auto‑fill with Incline Walk + Mobility. Your Apple Fitness stats show below when your Shortcut updates <code>fitness.json</code>. (This description won’t change unless you ask.)</p>
+    <nav class="row gap nav">
       <button id="prev" class="pill">◀ Prev Week</button>
       <button id="today" class="pill">Today</button>
       <button id="next" class="pill">Next Week ▶</button>
@@ -34,6 +33,28 @@
     </section>
 
     <section id="week" class="week"></section>
+
+    <section class="card protein">
+      <h2>Protein calculator (Ozempic‑friendly)</h2>
+      <form id="proteinForm" class="protein-ui" onsubmit="return false;">
+        <label>Bodyweight (kg)
+          <input id="bw" type="number" inputmode="decimal" step="0.1" min="30" max="250" value="88">
+        </label>
+        <fieldset class="targets">
+          <legend>Daily target</legend>
+          <label><input type="radio" name="pf" value="1.6"> 1.6 g/kg</label>
+          <label><input type="radio" name="pf" value="1.8" checked> 1.8 g/kg</label>
+          <label><input type="radio" name="pf" value="2.0"> 2.0 g/kg</label>
+        </fieldset>
+        <div class="result"><span id="grams">—</span> protein / day</div>
+      </form>
+      <ul class="tips">
+        <li>Front‑load protein: aim to hit <b>50–60%</b> of your daily target by mid‑afternoon to offset reduced appetite.</li>
+        <li>Lean staples that are easy on Ozempic: Greek yogurt, cottage cheese, eggs, tuna, chicken breast, whey/clear whey, lentils.</li>
+        <li>Convenience: premix a shake (30–40 g) you can sip after training or on the way to work.</li>
+        <li>Minimum per meal: try <b>25–40 g</b> protein to stimulate muscle protein synthesis.</li>
+      </ul>
+    </section>
   </main>
 
   <template id="dayTpl">
@@ -46,6 +67,6 @@
     </article>
   </template>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>

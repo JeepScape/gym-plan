@@ -1,29 +1,39 @@
-
 (function(){
-  // ---------- Utilities ----------
   const $ = s=>document.querySelector(s);
-  const fmt = new Intl.DateTimeFormat(undefined,{weekday:'long', day:'2-digit', month:'short'});
-  const fmtRight = d => fmt.format(d).replace(',', ''); // "Sunday, 26 Oct" -> "Sunday 26 Oct"
   const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const mon = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-  function ymd(d){ return d.toISOString().slice(0,10); }
-  function parseDate(s){ const t = new Date(s); return isNaN(+t)?null:t; }
-  function slug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+  const ymd = d => d.toISOString().slice(0,10);
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
   function getLS(k, def){ try{ return JSON.parse(localStorage.getItem(k)) ?? def }catch{ return def } }
   function setLS(k, v){ localStorage.setItem(k, JSON.stringify(v)); }
 
-  // ---------- Theme ----------
+  // ---- Theme button (fixed)
   const themeBtn = $('#themeBtn');
   const savedTheme = getLS('theme', null);
-  if(savedTheme){ document.documentElement.classList.toggle('theme-light', savedTheme==='light'); }
-  themeBtn.addEventListener('click', ()=>{
+  if(savedTheme){ document.documentElement.classList.toggle('theme-light', savedTheme==='light'); themeBtn.setAttribute('aria-pressed', savedTheme==='light'); }
+  themeBtn?.addEventListener('click', ()=>{
     const light = !document.documentElement.classList.contains('theme-light');
     document.documentElement.classList.toggle('theme-light', light);
+    themeBtn.setAttribute('aria-pressed', light);
     setLS('theme', light?'light':'dark');
   });
 
-  // ---------- Fetch fitness.json (live stats) ----------
+  // ---- Protein calculator
+  function calcProtein(){
+    const bw = parseFloat($('#bw').value||'0')||0;
+    const pf = parseFloat(document.querySelector('input[name="pf"]:checked')?.value || '1.8');
+    const grams = Math.round(bw * pf);
+    $('#grams').textContent = grams + ' g';
+    setLS('protein', {bw, pf});
+  }
+  // restore
+  const p = getLS('protein', null);
+  if(p){ $('#bw').value = p.bw; const rb = document.querySelector('input[name="pf"][value="'+p.pf+'"]'); if(rb){ rb.checked = true; } }
+  $('#bw').addEventListener('input', calcProtein);
+  document.querySelectorAll('input[name="pf"]').forEach(r=> r.addEventListener('change', calcProtein));
+  calcProtein();
+
+  // ---- Fitness
   async function loadFitness(){
     const box = $('#fitness');
     try{
@@ -37,117 +47,71 @@
         <div>Active: ${j.active_energy_kcal??'—'} kcal · Exercise: ${j.exercise_minutes??'—'} min</div>
         <div style="margin-top:6px">${w||'—'}</div>
       `;
-    }catch(e){
-      box.textContent = '—';
-    }
+    }catch(e){ box.textContent = '—'; }
   }
 
-  // ---------- Parse plan.json flexibly ----------
-  async function loadPlan(){
-    try{
-      const res = await fetch('plan.json?ts='+Date.now(), {cache:'no-store'});
-      if(!res.ok) throw new Error(res.status);
-      return await res.json();
-    }catch(e){
-      return null;
-    }
+  // ---- Plan
+  async function fetchPlan(){
+    const res = await fetch('plan.json?ts='+Date.now(), {cache:'no-store'});
+    if(!res.ok) throw new Error('plan not found');
+    return res.json();
   }
 
   function normalizePlan(raw){
-    // Goal shape: [{title, type, workoutNumber, dayIndex(0-6), exercises:[{name, reps, sets, range, link}], ...}] per week
-    // Accept several shapes and convert.
-    if(!raw) return { weeks: [] };
-
-    let weeks = [];
-    if(Array.isArray(raw.weeks)) weeks = raw.weeks;
-    else if(Array.isArray(raw.plan)) weeks = raw.plan;
-    else if(Array.isArray(raw)) {
-      // could be weeks already
-      if(raw.length && (raw[0].days || raw[0].exercises)) weeks = raw;
-    }
-
-    // Ensure weeks array of {days:[...]}
-    weeks = weeks.map(w=>{
-      const days = Array.isArray(w.days) ? w.days : (Array.isArray(w) ? w : []);
-      const normDays = days.map((d, di)=>{
-        const exercises = Array.isArray(d.exercises) ? d.exercises : (Array.isArray(d.items)? d.items : []);
-        // Map exercise fields
-        const exs = exercises.map(x=>{
-          const name = x.name || x.title || x.exercise || 'Exercise';
-          const reps = x.reps || x.repRange || x.range || x.rpe || x.setsReps || x.notes || null;
-          const link = x.vimeo || x.vimeo_id || x.vimeoId ?
-              (String(x.vimeo).match(/^https?/) ? x.vimeo : `https://vimeo.com/${x.vimeo_id||x.vimeoId||x.vimeo}`)
-              : (x.link || x.url || null);
-          const isMobility = /incline|walk|mobility|plank|stretch/i.test(name);
-          return { name, reps, link, isMobility };
-        });
-        const title = d.title || d.name || '';
-        const type = d.type || (title.split(' - ')[1] || '').trim() || '';
-        const wNum = d.workoutNumber || d.workout || null;
-        const dayName = d.day || d.dayName || dayNames[di%7];
-        return { title, type, workoutNumber: wNum, dayName, rawTitle: title, exercises: exs };
-      });
-      return { days: normDays };
-    });
-
-    // If there are 0 weeks, return empty
-    return { weeks };
+    // Expect raw.weeks[].days[] with .date, .type, .exercises[{name, rep_range, video}]
+    const weeks = Array.isArray(raw.weeks) ? raw.weeks.slice() : (Array.isArray(raw.plan) ? raw.plan.slice() : []);
+    return weeks.map(w => ({
+      start: w.start || null,
+      label: w.label || '',
+      days: (w.days||[]).map(d => ({
+        date: d.date || null,
+        type: d.type || d.title || '',
+        notes: d.notes || '',
+        exercises: (d.exercises||[]).map(x => ({
+          name: x.name || x.title || 'Exercise',
+          reps: x.rep_range || x.reps || x.setsReps || '',
+          link: x.video || x.vimeo || x.url || x.link || null
+        }))
+      }))
+    }));
   }
 
-  // Fill to 26 weeks (6 months) by repeating
-  function expandWeeks(weeks, target=26){
-    if(!weeks.length){ 
-      // make 1 week of incline/mobility placeholders
-      const days = [...Array(7)].map((_,i)=>({dayName:dayNames[i], type: i===6?'Rest':'Incline Walk + Mobility', workoutNumber: i+1, exercises: i===6?[]:[{name:'Incline Walk + Mobility', reps:'20–30 min · 5–7% incline', link:null, isMobility:true}]}));
-      weeks = [{days}];
-    }
-    const out=[];
-    for(let i=0;i<target;i++){
-      out.push( JSON.parse(JSON.stringify(weeks[i % weeks.length])) );
+  // Build 26 anchor weeks starting Sun 26 Oct 2025 using the sequence from plan.json
+  function buildCalendar(srcWeeks){
+    const anchor = new Date(2025,9,26); // Sun 26 Oct 2025
+    const seq = srcWeeks.length ? srcWeeks : [{days:new Array(7).fill({}).map((_,i)=>({type:i===6?'Rest / Recovery':'Incline Walk + Mobility', exercises:[]}))}];
+    const out = [];
+    for(let w=0; w<26; w++){
+      const tmpl = seq[w % seq.length];
+      const days = (tmpl.days||new Array(7)).map((d, i)=>{
+        const dt = new Date(anchor.getFullYear(), anchor.getMonth(), anchor.getDate() + w*7 + i);
+        // Keep only exercises with a video link; allow mobility without links
+        const exs = (d.exercises||[]).filter(ex => {
+          const isMob = /incline|walk|mobility|plank|stretch/i.test(ex.name||'');
+          return isMob || !!ex.link;
+        });
+        // If a strength day ends up empty, fill with incline walk
+        let type = d.type || '';
+        let exercises = exs;
+        if((!exercises || exercises.length===0) && (type.toLowerCase().startsWith('workout') || /chest|back|legs|pull|push|arms|shoulder/i.test(type))){
+          type = 'Incline Walk + Mobility';
+        }
+        return {
+          date: dt,
+          type: type || 'Incline Walk + Mobility',
+          notes: d.notes || '',
+          exercises: (exercises && exercises.length) ? exercises : [{name:'Incline Walk + Mobility', reps:'20–30 min · 5–7% incline', link:null}]
+        };
+      });
+      out.push({days});
     }
     return out;
   }
 
-  // Attach dates starting from anchor Sunday 26 Oct 2025
-  function dateifyWeeks(weeks){
-    const anchor = new Date(Date.UTC(2025,9,26)); // 2025-10-26
-    // shift to local timezone date (drop UTC midnight problem)
-    const a = new Date(anchor.getUTCFullYear(), anchor.getUTCMonth(), anchor.getUTCDate());
-    let day = new Date(a);
-    weeks.forEach((w, wi)=>{
-      w.days.forEach((d, di)=>{
-        const dt = new Date(a.getFullYear(), a.getMonth(), a.getDate() + wi*7 + di);
-        d.date = dt;
-      });
-    });
-    return weeks;
-  }
-
-  // Ensure 6 training + 1 rest; any empty day becomes Incline Walk + Mobility
-  function enforceSixOne(weeks){
-    weeks.forEach(w=>{
-      let trainCount=0;
-      w.days.forEach((d, i)=>{ if((d.exercises||[]).length) trainCount++; });
-      w.days.forEach((d, i)=>{
-        if(!(d.exercises && d.exercises.length)){
-          if(i===6){ // keep last day as rest if already at 6 training
-            d.type = 'Rest';
-            d.workoutNumber = d.workoutNumber || (i+1);
-            d.exercises = [];
-          }else{
-            d.type = 'Incline Walk + Mobility';
-            d.workoutNumber = d.workoutNumber || (i+1);
-            d.exercises = [{name:'Incline Walk + Mobility', reps:'20–30 min · 5–7% incline', isMobility:true}];
-          }
-        }
-      });
-    });
-  }
-
-  function renderWeek(weekIdx){
-    const days = weeks[weekIdx].days;
+  function renderWeek(weeks, idx){
     const container = $('#week');
     container.innerHTML = '';
+    const days = weeks[idx].days;
     days.forEach((d, di)=>{
       const node = document.importNode($('#dayTpl').content, true);
       const art = node.querySelector('.day');
@@ -155,47 +119,45 @@
       const right = node.querySelector('.right');
       const ul = node.querySelector('.exercises');
 
-      // heading text
-      const Wn = d.workoutNumber || (di+1);
-      const type = d.type || guessType(d);
-      left.textContent = `${dayNames[d.date.getDay()]} – Workout ${Wn} – ${type || 'Training'}`;
-      right.textContent = `${dayNames[d.date.getDay()]} ${String(d.date.getDate()).padStart(2,'0')} ${mon[d.date.getMonth()]}`;
+      const Wn = di+1;
+      const type = d.type || 'Training';
+      const dayName = dayNames[d.date.getDay()];
+      left.textContent = `${dayName} – Workout ${Wn} – ${type.replace(/^Workout\\s*\\d+\\s*-\\s*/i,'')}`;
+      right.textContent = `${dayName} ${String(d.date.getDate()).padStart(2,'0')} ${mon[d.date.getMonth()]}`;
 
-      // is today?
-      const today = new Date();
-      const isToday = d.date.getFullYear()===today.getFullYear() && d.date.getMonth()===today.getMonth() && d.date.getDate()===today.getDate();
+      // highlight if today
+      const t = new Date();
+      const isToday = d.date.getFullYear()===t.getFullYear() && d.date.getMonth()===t.getMonth() && d.date.getDate()===t.getDate();
       if(isToday){ art.classList.add('today'); requestAnimationFrame(()=>art.scrollIntoView({behavior:'smooth', block:'start'})); }
 
-      // exercises
-      (d.exercises||[])
-        .filter(ex => ex.isMobility || !!ex.link)  // only show non-mobility items with a video link
-        .forEach((ex, idx)=>{
-          const li = document.createElement('li');
-          li.className='ex';
-          const key = `done:${ymd(d.date)}:${slug(ex.name)}`;
-          const chk = document.createElement('input');
-          chk.type='checkbox';
-          chk.checked = !!getLS(key,false);
-          chk.addEventListener('change', e=> setLS(key, chk.checked));
+      (d.exercises||[]).forEach(ex=>{
+        const li = document.createElement('li');
+        li.className = 'ex';
+        const key = `done:${ymd(d.date)}:${slug(ex.name)}`;
 
-          const ttl = document.createElement('div');
-          ttl.className='title';
-          ttl.innerHTML = `<div>${ex.name}</div><div class="meta">${ex.reps || ''}</div>`;
+        const chk = document.createElement('input');
+        chk.type='checkbox';
+        chk.checked = !!getLS(key,false);
+        chk.addEventListener('change', ()=> setLS(key, chk.checked));
 
-          li.appendChild(chk);
-          li.appendChild(ttl);
+        const ttl = document.createElement('div');
+        ttl.className='title';
+        ttl.innerHTML = `<div>${ex.name}</div><div class="meta">${ex.reps||''}</div>`;
 
-          if(ex.link){
-            const a = document.createElement('a');
-            a.className='vid';
-            a.textContent='Video';
-            a.target='_blank';
-            a.rel='noopener';
-            a.href = normalizeLink(ex.link);
-            li.appendChild(a);
-          }
-          ul.appendChild(li);
-        });
+        li.appendChild(chk);
+        li.appendChild(ttl);
+
+        if(ex.link){
+          const a = document.createElement('a');
+          a.className='vid';
+          a.textContent='Video';
+          a.target='_blank';
+          a.rel='noopener';
+          a.href = normalizeLink(ex.link);
+          li.appendChild(a);
+        }
+        ul.appendChild(li);
+      });
 
       container.appendChild(node);
     });
@@ -203,43 +165,31 @@
 
   function normalizeLink(s){
     if(!s) return '#';
-    if(/^https?:/.test(s)) return s;
-    // vimeo id
+    if(/^https?:/i.test(s)) return s;
     if(/^[0-9]+$/.test(String(s))) return `https://vimeo.com/${s}`;
     return s;
   }
 
-  function guessType(d){
-    const t = d.rawTitle||'';
-    const m = t.match(/-\s*([^\-]+)$/);
-    if(m) return m[1].trim();
-    return '';
-  }
-
-  // ---------- Wiring ----------
+  // ---- Nav
   let weeks = [];
   let currentWeek = 0;
+  function pickWeekContainingToday(weeks){
+    const t = new Date();
+    const idx = weeks.findIndex(w => w.days.some(d => d.date.getFullYear()===t.getFullYear() && d.date.getMonth()===t.getMonth() && d.date.getDate()===t.getDate()));
+    return idx>=0 ? idx : 0;
+  }
 
   async function init(){
     await loadFitness();
-
-    const raw = await loadPlan();
+    const raw = await fetchPlan();
     const norm = normalizePlan(raw);
-    weeks = expandWeeks(norm.weeks, 26);
-    dateifyWeeks(weeks);
-    enforceSixOne(weeks);
+    weeks = buildCalendar(norm);
+    currentWeek = pickWeekContainingToday(weeks);
+    renderWeek(weeks, currentWeek);
 
-    // pick the week that contains TODAY
-    const today = new Date();
-    currentWeek = weeks.findIndex(w=> w.days.some(d=> d.date.getFullYear()===today.getFullYear() && d.date.getMonth()===today.getMonth() && d.date.getDate()===today.getDate() ));
-    if(currentWeek<0) currentWeek = 0;
-
-    renderWeek(currentWeek);
-
-    // nav
-    $('#prev').onclick = ()=>{ if(currentWeek>0){ currentWeek--; renderWeek(currentWeek);} };
-    $('#next').onclick = ()=>{ if(currentWeek<weeks.length-1){ currentWeek++; renderWeek(currentWeek);} };
-    $('#today').onclick = ()=>{ init(); };
+    $('#prev').onclick = ()=>{ if(currentWeek>0){ currentWeek--; renderWeek(weeks, currentWeek);} };
+    $('#next').onclick = ()=>{ if(currentWeek<weeks.length-1){ currentWeek++; renderWeek(weeks, currentWeek);} };
+    $('#today').onclick = ()=>{ currentWeek = pickWeekContainingToday(weeks); renderWeek(weeks, currentWeek); };
   }
 
   init();

@@ -59,7 +59,7 @@
   function renderWeek(week){
     const container = $('#week');
     container.innerHTML = '';
-    week.days.forEach((d)=>{
+    (week.days||[]).forEach((d)=>{
       const node = document.importNode($('#dayTpl').content, true);
       const art = node.querySelector('.day');
       const left = node.querySelector('.left');
@@ -90,7 +90,7 @@
         const title = document.createElement('div');
         const bits = [];
         if (ex.muscle) bits.push(`Muscle: ${ex.muscle}`);
-        if (ex.sets) bits.push(`Sets: ${ex.sets}`);
+        if (ex.sets!=null && ex.sets!=='') bits.push(`Sets: ${ex.sets}`);
         if (ex.reps) bits.push(`Reps: ${ex.reps}`);
         title.innerHTML = `<div><strong>${ex.name}</strong></div><div class="meta">${bits.join(' • ')}</div>`;
         li.appendChild(title);
@@ -112,24 +112,22 @@
     });
   }
 
-  function pickWeekContainingToday(weeks){
-    const t = new Date();
-    const idx = weeks.findIndex(w => w.days.some(d => {
-      const dd = new Date(d.date+'T00:00:00');
-      return dd.getFullYear()===t.getFullYear() && dd.getMonth()===t.getMonth() && dd.getDate()===t.getDate();
-    }));
+  function findWeekContaining(weeks, today){
+    const ymd = d => d.toISOString().slice(0,10);
+    const t = ymd(today);
+    const idx = weeks.findIndex(w => (w.days||[]).some(d => d.date===t));
     return idx>=0 ? idx : 0;
   }
 
   async function init(){
     const plan = await fetchPlan();
-    const weeks = plan.weeks || [];
-    let current = pickWeekContainingToday(weeks);
+    const weeks = plan.weeks || plan || [];
+    let current = findWeekContaining(weeks, new Date());
     renderWeek(weeks[current]);
 
     $('#prev').onclick = ()=>{ if(current>0){ current--; renderWeek(weeks[current]); } };
     $('#next').onclick = ()=>{ if(current<weeks.length-1){ current++; renderWeek(weeks[current]); } };
-    $('#today').onclick = ()=>{ current = pickWeekContainingToday(weeks); renderWeek(weeks[current]); };
+    $('#today').onclick = ()=>{ current = findWeekContaining(weeks, new Date()); renderWeek(weeks[current]); };
   }
 
   init();
